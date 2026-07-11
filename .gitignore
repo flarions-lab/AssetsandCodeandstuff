@@ -1,0 +1,15 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# Build outputs (Hex-A-Gone exports — versioned manually, not via git)
+*.apk
+*.apk.idsig
+*.exe
+*.pck
+Hex-A-Gone-*.zip
+Hex-A-Gone-*.Windows/
+
+# Godot simulation/error logs
+sim_err.txt
+*.log

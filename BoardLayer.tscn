@@ -1,0 +1,95 @@
+[gd_scene format=4 uid="uid://c6wwue8ep6avl"]
+
+[ext_resource type="Texture2D" uid="uid://dnunwgyrp3u7b" path="res://assets/Tile 2.png" id="1_p7gar"]
+[ext_resource type="Texture2D" uid="uid://cmk2qdrs0tlp4" path="res://assets/Tile 3.png" id="2_8rm8w"]
+[ext_resource type="Texture2D" uid="uid://cmy0jqvhxdvij" path="res://assets/Tile 7.png" id="3_aet86"]
+[ext_resource type="Texture2D" uid="uid://c337sqhlf12rd" path="res://assets/Tile 4.png" id="4_n1qim"]
+[ext_resource type="Texture2D" uid="uid://d4xech46h464" path="res://assets/Tile 1.png" id="5_joe2d"]
+[ext_resource type="Texture2D" uid="uid://cyqd6enmivk23" path="res://assets/Tile 5.png" id="6_cbdxa"]
+[ext_resource type="Texture2D" uid="uid://cmh5ewtw803el" path="res://assets/Tile 6.png" id="7_dj6yt"]
+[ext_resource type="Texture2D" uid="uid://bicmtvfco3i5s" path="res://assets/Board-Tile_Black.png" id="8_ij2m5"]
+[ext_resource type="Texture2D" uid="uid://b8h5kj4rc0hkg" path="res://assets/Board-Tile_Gray.png" id="9_ew6vh"]
+[ext_resource type="Texture2D" uid="uid://cstksxa7iwrnx" path="res://assets/Board-Tile_White.png" id="10_wgb13"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_2xaxh"]
+texture = ExtResource("1_p7gar")
+texture_region_size = Vector2i(512, 512)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_764bd"]
+texture = ExtResource("2_8rm8w")
+texture_region_size = Vector2i(512, 512)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_umahd"]
+texture = ExtResource("3_aet86")
+texture_region_size = Vector2i(512, 512)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_63r1o"]
+texture = ExtResource("4_n1qim")
+texture_region_size = Vector2i(512, 512)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_rj586"]
+texture = ExtResource("5_joe2d")
+texture_region_size = Vector2i(512, 512)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_a4qci"]
+texture = ExtResource("6_cbdxa")
+texture_region_size = Vector2i(512, 512)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ggn78"]
+texture = ExtResource("7_dj6yt")
+texture_region_size = Vector2i(512, 512)
+0:0/0 = 0
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_0hol4"]
+load_path = "res://.godot/imported/color pallet.png-839b7df23bcd7acab530fe97e7cbef3e.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4d7sh"]
+texture = SubResource("CompressedTexture2D_0hol4")
+separation = Vector2i(215, 200)
+texture_region_size = Vector2i(580, 580)
+0:0/0 = 0
+1:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ir8iy"]
+texture = ExtResource("8_ij2m5")
+texture_region_size = Vector2i(572, 572)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_hqns4"]
+texture = ExtResource("9_ew6vh")
+texture_region_size = Vector2i(572, 572)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_x0ka3"]
+texture = ExtResource("10_wgb13")
+texture_region_size = Vector2i(572, 572)
+0:0/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_ir8iy"]
+tile_shape = 3
+tile_size = Vector2i(495, 555)
+sources/3 = SubResource("TileSetAtlasSource_rj586")
+sources/6 = SubResource("TileSetAtlasSource_4d7sh")
+sources/7 = SubResource("TileSetAtlasSource_ir8iy")
+sources/8 = SubResource("TileSetAtlasSource_hqns4")
+sources/9 = SubResource("TileSetAtlasSource_x0ka3")
+sources/0 = SubResource("TileSetAtlasSource_2xaxh")
+sources/1 = SubResource("TileSetAtlasSource_764bd")
+sources/2 = SubResource("TileSetAtlasSource_63r1o")
+sources/4 = SubResource("TileSetAtlasSource_a4qci")
+sources/5 = SubResource("TileSetAtlasSource_ggn78")
+sources/10 = SubResource("TileSetAtlasSource_umahd")
+
+[node name="Layer1" type="TileMapLayer" unique_id=1161401910]
+texture_filter = 4
+use_parent_material = true
+tile_map_data = PackedByteArray("AAAAAAEACAAAAAAAAAAAAAMACAAAAAAAAAAAAAUACAAAAAAAAAAAAAcACAAAAAAAAAAAAAkACAAAAAAAAAACAAgACAAAAAAAAAACAAYACAAAAAAAAAADAAkACAAAAAAAAAAGAAkACAAAAAAAAAAJAAkACAAAAAAAAAABAAAABwAAAAAAAAABAAIABwAAAAAAAAABAAQABwAAAAAAAAABAAYABwAAAAAAAAABAAgABwAAAAAAAAACAAkABwAAAAAAAAACAAcABwAAAAAAAAACAAUABwAAAAAAAAACAAMABwAAAAAAAAACAAEABwAAAAAAAAAEAAIABwAAAAAAAAAEAAAABwAAAAAAAAAEAAQABwAAAAAAAAAEAAYABwAAAAAAAAAEAAgABwAAAAAAAAAFAAkABwAAAAAAAAAFAAcABwAAAAAAAAAFAAUABwAAAAAAAAAFAAMABwAAAAAAAAAFAAEABwAAAAAAAAAHAAAABwAAAAAAAAAHAAIABwAAAAAAAAAHAAQABwAAAAAAAAAHAAYABwAAAAAAAAAHAAgABwAAAAAAAAAIAAkABwAAAAAAAAAIAAcABwAAAAAAAAAIAAUABwAAAAAAAAAIAAMABwAAAAAAAAAIAAEABwAAAAAAAAABAAkACQAAAAAAAAABAAcACQAAAAAAAAABAAUACQAAAAAAAAABAAMACQAAAAAAAAABAAEACQAAAAAAAAADAAAACQAAAAAAAAADAAIACQAAAAAAAAADAAQACQAAAAAAAAADAAYACQAAAAAAAAADAAgACQAAAAAAAAAEAAcACQAAAAAAAAAEAAkACQAAAAAAAAAEAAUACQAAAAAAAAAEAAMACQAAAAAAAAAEAAEACQAAAAAAAAAGAAAACQAAAAAAAAAGAAIACQAAAAAAAAAGAAQACQAAAAAAAAAGAAYACQAAAAAAAAAGAAgACQAAAAAAAAAHAAcACQAAAAAAAAAHAAkACQAAAAAAAAAJAAgACQAAAAAAAAAJAAYACQAAAAAAAAAHAAUACQAAAAAAAAAHAAMACQAAAAAAAAAHAAEACQAAAAAAAAAJAAAACQAAAAAAAAAJAAIACQAAAAAAAAAJAAQACQAAAAAAAAADAAcACAAAAAAAAAAFAAgACAAAAAAAAAAFAAYACAAAAAAAAAADAAUACAAAAAAAAAAGAAcACAAAAAAAAAAGAAUACAAAAAAAAAAFAAQACAAAAAAAAAADAAMACAAAAAAAAAACAAQACAAAAAAAAAACAAIACAAAAAAAAAACAAAACAAAAAAAAAADAAEACAAAAAAAAAAFAAAACAAAAAAAAAAFAAIACAAAAAAAAAAGAAEACAAAAAAAAAAGAAMACAAAAAAAAAAIAAIACAAAAAAAAAAIAAAACAAAAAAAAAAJAAEACAAAAAAAAAAJAAMACAAAAAAAAAAIAAQACAAAAAAAAAAIAAYACAAAAAAAAAAIAAgACAAAAAAAAAAJAAcACAAAAAAAAAAJAAUACAAAAAAAAAABAAoABwAAAAAAAAAEAAoABwAAAAAAAAAHAAoABwAAAAAAAAACAAoACAAAAAAAAAAFAAoACAAAAAAAAAAIAAoACAAAAAAAAAADAAoACQAAAAAAAAAGAAoACQAAAAAAAAAJAAoACQAAAAAAAAAMAAEAAAAAAAAAAAAMAAIAAQAAAAAAAAAMAAMAAgAAAAAAAAAMAAQABAAAAAAAAAAMAAUABQAAAAAAAAALAAMACgAAAAAAAAA=")
+tile_set = SubResource("TileSet_ir8iy")

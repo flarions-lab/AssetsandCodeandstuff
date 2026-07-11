@@ -1,0 +1,91 @@
+name: Export & Release PCK
+
+# Triggered manually. Enter the new version number (e.g. 1.1.0).
+# The workflow:
+#   1. Exports a .pck from the "Android" preset using Godot headless
+#   2. Creates a GitHub Release on this repo with the .pck as an asset
+#   3. Updates version.js in hex-relay-server-2 with the new version,
+#      download URL, and SHA256 hash so UpdateManager.gd picks it up
+#
+# Required secret: PAT_HEX_RELAY
+#   A GitHub Personal Access Token with "repo" scope on hex-relay-server-2.
+#   Add it at: Settings > Secrets and variables > Actions > New repository secret
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Release version (e.g. 1.1.0)'
+        required: true
+        type: string
+
+jobs:
+  export-pck:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write   # allows creating GitHub Releases on this repo
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Godot 4.6-stable headless
+        run: |
+          wget -q "https://github.com/godotengine/godot/releases/download/4.6-stable/Godot_v4.6-stable_linux.x86_64.zip" -O godot.zip
+          unzip -q godot.zip
+          chmod +x "Godot_v4.6-stable_linux.x86_64"
+          sudo mv "Godot_v4.6-stable_linux.x86_64" /usr/local/bin/godot4
+
+      - name: Import project assets
+        # Warms the .godot/imported/ cache. Exits non-zero in some Godot versions; ignore it.
+        run: timeout 120 godot4 --headless --editor --quit --no-header 2>&1 || true
+
+      - name: Export PCK
+        run: godot4 --headless --export-pack "Android" "$GITHUB_WORKSPACE/Hex-A-Gone.pck" 2>&1
+
+      - name: Verify PCK was produced
+        run: |
+          if [ ! -f "$GITHUB_WORKSPACE/Hex-A-Gone.pck" ]; then
+            echo "ERROR: Hex-A-Gone.pck was not created"
+            exit 1
+          fi
+          ls -lh "$GITHUB_WORKSPACE/Hex-A-Gone.pck"
+
+      - name: Compute SHA256
+        id: sha
+        run: |
+          SHA=$(sha256sum Hex-A-Gone.pck | awk '{print $1}')
+          echo "sha256=$SHA" >> $GITHUB_OUTPUT
+          echo "SHA256: $SHA"
+
+      - name: Create GitHub Release with PCK
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "v${{ inputs.version }}" \
+            "$GITHUB_WORKSPACE/Hex-A-Gone.pck" \
+            --repo "${{ github.repository }}" \
+            --title "v${{ inputs.version }}" \
+            --notes "Game content update v${{ inputs.version }}"
+
+      - name: Update version.js in hex-relay-server-2
+        env:
+          PAT_HEX_RELAY: ${{ secrets.PAT_HEX_RELAY }}
+        run: |
+          VERSION="${{ inputs.version }}"
+          SHA="${{ steps.sha.outputs.sha256 }}"
+          URL="https://github.com/${{ github.repository }}/releases/download/v${VERSION}/Hex-A-Gone.pck"
+
+          git clone "https://x-access-token:${PAT_HEX_RELAY}@github.com/flarions-lab/hex-relay-server-2.git" relay_repo
+          cd relay_repo
+
+          sed -i "s|VERSION: '[^']*'|VERSION: '${VERSION}'|" version.js
+          sed -i "s|PCK_URL: '[^']*'|PCK_URL: '${URL}'|" version.js
+          sed -i "s|PCK_SHA256: '[^']*'|PCK_SHA256: '${SHA}'|" version.js
+
+          git config user.email "github-actions@github.com"
+          git config user.name "GitHub Actions"
+          git add version.js
+          git commit -m "v${VERSION} — update PCK URL and SHA256"
+          git push

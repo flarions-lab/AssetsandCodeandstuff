@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cko2ykfwbbx03"
+path="res://.godot/imported/Ultra by Savfk.mp3-c0f91bf1f3b76ccd6fe88b2d54d85db1.mp3str"
+
+[deps]
+
+source_file="res://assets/HexAudio/HexMusic/Ultra by Savfk.mp3"
+dest_files=["res://.godot/imported/Ultra by Savfk.mp3-c0f91bf1f3b76ccd6fe88b2d54d85db1.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

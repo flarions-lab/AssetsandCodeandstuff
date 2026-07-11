@@ -1,0 +1,52 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Hex-A-Gone"
+config/version="1.0.8"
+run/main_scene="res://main_menu.tscn"
+config/quit_on_go_back=false
+config/features=PackedStringArray("4.6", "GL Compatibility")
+
+[autoload]
+
+UpdateManager="*res://scripts/UpdateManager.gd"
+AccountManager="*res://scripts/AccountManager.gd"
+TutorialManager="*res://scripts/TutorialManager.gd"
+GameManager="*res://scripts/GameManager.gd"
+NetworkManager="*res://scripts/NetworkManager.gd"
+MusicPlayer="*res://scripts/MusicPlayer.gd"
+SoundManager="*res://scripts/SoundManager.gd"
+BackgroundManager="*res://scripts/BackgroundManager.gd"
+AchievementManager="*res://scripts/AchievementManager.gd"
+
+[display]
+
+window/stretch/mode="viewport"
+window/stretch/scale=0.5
+window/stretch/scale_mode="integer"
+window/per_pixel_transparency/allowed=true
+window/handheld/orientation="landscape"
+
+[input_devices]
+
+pointing/emulate_touch_from_mouse=true
+
+[physics]
+
+3d/physics_engine="Jolt Physics"
+
+[rendering]
+
+rendering_device/driver.windows="d3d12"
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/vram_compression/import_etc2_astc=true

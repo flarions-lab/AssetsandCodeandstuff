@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://co5y4r1nrtpob"
+path="res://.godot/imported/Glass Clinking.mp3-b4db15d7c985701eb375cbb554e035ad.mp3str"
+
+[deps]
+
+source_file="res://assets/HexAudio/HexSounds/HexTurnSounds/Glass Clinking.mp3"
+dest_files=["res://.godot/imported/Glass Clinking.mp3-b4db15d7c985701eb375cbb554e035ad.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

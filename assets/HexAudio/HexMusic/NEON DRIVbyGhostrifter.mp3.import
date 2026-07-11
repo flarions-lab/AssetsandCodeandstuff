@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://btnf8xofvklg6"
+path="res://.godot/imported/NEON DRIVbyGhostrifter.mp3-729b151de6e52a96b9f12b0d373ad0e3.mp3str"
+
+[deps]
+
+source_file="res://assets/HexAudio/HexMusic/NEON DRIVbyGhostrifter.mp3"
+dest_files=["res://.godot/imported/NEON DRIVbyGhostrifter.mp3-729b151de6e52a96b9f12b0d373ad0e3.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,4 @@
+Godot Engine v4.6.stable.official.89cea1439 - https://godotengine.org
+
+MusicPlayer: playing res://assets/HexAudio/HexMusic/DarkSuspenseandSynthwave-TheDeadbyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0

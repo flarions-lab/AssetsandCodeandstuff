@@ -1,0 +1,2763 @@
+Godot Engine v4.6.stable.official.89cea1439 - https://godotengine.org
+OpenGL API 3.3.0 Core Profile Context 25.8.1.250617 - Compatibility - Using Device: ATI Technologies Inc. - Radeon RX 580 Series
+
+MusicPlayer: playing res://assets/HexAudio/HexMusic/DarkSuspenseandSynthwave-TheDeadbyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+MusicPlayer: playing res://assets/HexAudio/HexMusic/RetroandSynthwave-OdysseybyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+DEBUG PLAN: board control ours=54 enemy=54
+DEBUG PLAN: player=1 difficulty=2
+DEBUG PLAN: human predicted chain value=4.0 start=(8, 8) links=4 control=69
+DEBUG PLAN: material balance = 1 (ours=70 enemy=69)
+DEBUG PLAN: bot best chain value=4.0 start=(4, 8) links=4 control=69
+DEBUG PLAN: net = capture 4.0 (ranked 4.0) - risk 4.0 (piece at (4, 8)) = 0.0
+DEBUG PLAN: B1 -- human turn value 4.0 >= bot turn value 0.0 -> checking defense
+DEBUG PLAN: best chain (start=(4, 8), net=0.0) not worth it -> safer capture from (4, 8) (net=0.0) available as fallback
+DEBUG PLAN: capturing h0's attacker at (8, 8) (chain from (4, 8), net 4.0) reduces the human's best reply from 4.0 to 4.0 (threat reduction 0.0, total 4.0) -- worth more than fallback net 0.0 -> capturing the attacker resolves all of h0's threatened pieces at once
+DEBUG FINAL: new plan, 3 links remain [12135ms]
+DEBUG PLAN: continuing -> Reposition (4, 8) to (5, 8) (3 links remain)
+DEBUG: Bot chose - action: Reposition from: (4, 8) to: (5, 8) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (4, 8) to (5, 8)
+DEBUG: Calling select_piece_bot((4, 8))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(4, 8)
+DEBUG: piece at (4, 8): { "source_id": 1, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((5, 8))
+DEBUG move_selected_piece_to: target=(5, 8), state=2, selected=(4, 8)
+DEBUG: is_valid_move((4, 8) -> (5, 8)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (5, 8) to (6, 8) (2 links remain)
+DEBUG: Bot chose - action: Reposition from: (5, 8) to: (6, 8) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (5, 8) to (6, 8)
+DEBUG: Calling select_piece_bot((5, 8))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(5, 8)
+DEBUG: piece at (5, 8): { "source_id": 1, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((6, 8))
+DEBUG move_selected_piece_to: target=(6, 8), state=2, selected=(5, 8)
+DEBUG: is_valid_move((5, 8) -> (6, 8)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (6, 8) to (7, 8) (1 links remain)
+DEBUG: Bot chose - action: Reposition from: (6, 8) to: (7, 8) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (6, 8) to (7, 8)
+DEBUG: Calling select_piece_bot((6, 8))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(6, 8)
+DEBUG: piece at (6, 8): { "source_id": 1, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((7, 8))
+DEBUG move_selected_piece_to: target=(7, 8), state=2, selected=(6, 8)
+DEBUG: is_valid_move((6, 8) -> (7, 8)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Capture (7, 8) to (8, 8) captured_sid=11 (0 links remain)
+DEBUG: Bot chose - action: Capture from: (7, 8) to: (8, 8) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (7, 8) to (8, 8)
+DEBUG: Calling select_piece_bot((7, 8))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(7, 8)
+DEBUG: piece at (7, 8): { "source_id": 1, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((8, 8))
+DEBUG move_selected_piece_to: target=(8, 8), state=2, selected=(7, 8)
+DEBUG: is_valid_move((7, 8) -> (8, 8)) = true
+DEBUG: Move executed
+DEBUG PLAN: board control ours=52 enemy=69
+DEBUG PLAN: player=2 difficulty=3
+DEBUG PLAN: human predicted chain value=9.0 start=(8, 8) links=4 control=65
+DEBUG PLAN: material balance = -5 (ours=65 enemy=70)
+MusicPlayer: playing res://assets/HexAudio/HexMusic/DarkSuspenseandSynthwave-TheDeadbyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+DEBUG PLAN: extra-hard attacking candidate start=(9, 10) value=7.0 net_value=6.0 score=7.0
+DEBUG PLAN: extra-hard score is non-negative -> committing to chain from (9, 10)
+DEBUG FINAL: new plan, 2 links remain [23267ms]
+DEBUG PLAN: continuing -> Reposition (9, 10) to (8, 9) (2 links remain)
+DEBUG: Bot chose - action: Reposition from: (9, 10) to: (8, 9) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (9, 10) to (8, 9)
+DEBUG: Calling select_piece_bot((9, 10))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(9, 10)
+DEBUG: piece at (9, 10): { "source_id": 14, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((8, 9))
+DEBUG move_selected_piece_to: target=(8, 9), state=2, selected=(9, 10)
+DEBUG: is_valid_move((9, 10) -> (8, 9)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Capture (8, 9) to (8, 8) captured_sid=1 (1 links remain)
+DEBUG: Bot chose - action: Capture from: (8, 9) to: (8, 8) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (8, 9) to (8, 8)
+DEBUG: Calling select_piece_bot((8, 9))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(8, 9)
+DEBUG: piece at (8, 9): { "source_id": 14, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((8, 8))
+DEBUG move_selected_piece_to: target=(8, 8), state=2, selected=(8, 9)
+DEBUG: is_valid_move((8, 9) -> (8, 8)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (8, 8) to (9, 8) (0 links remain)
+DEBUG: Bot chose - action: Reposition from: (8, 8) to: (9, 8) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (8, 8) to (9, 8)
+DEBUG: Calling select_piece_bot((8, 8))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(8, 8)
+DEBUG: piece at (8, 8): { "source_id": 14, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((9, 8))
+DEBUG move_selected_piece_to: target=(9, 8), state=2, selected=(8, 8)
+DEBUG: is_valid_move((8, 8) -> (9, 8)) = true
+DEBUG: Move executed
+DEBUG PLAN: board control ours=52 enemy=52
+DEBUG PLAN: player=1 difficulty=2
+DEBUG PLAN: human predicted chain value=4.0 start=(8, 2) links=4 control=67
+DEBUG PLAN: material balance = 1 (ours=66 enemy=65)
+DEBUG PLAN: bot best chain value=4.0 start=(4, 2) links=4 control=67
+DEBUG PLAN: net = capture 4.0 (ranked 4.0) - risk 4.0 (piece at (4, 2)) = 0.0
+DEBUG PLAN: B1 -- human turn value 4.0 >= bot turn value 0.0 -> checking defense
+DEBUG PLAN: best chain (start=(4, 2), net=0.0) not worth it -> safer capture from (4, 2) (net=0.0) available as fallback
+DEBUG PLAN: capturing h0's attacker at (8, 2) (chain from (4, 2), net 4.0) reduces the human's best reply from 4.0 to 4.0 (threat reduction 0.0, total 4.0) -- worth more than fallback net 0.0 -> capturing the attacker resolves all of h0's threatened pieces at once
+DEBUG FINAL: new plan, 3 links remain [10707ms]
+DEBUG PLAN: continuing -> Reposition (4, 2) to (5, 2) (3 links remain)
+DEBUG: Bot chose - action: Reposition from: (4, 2) to: (5, 2) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (4, 2) to (5, 2)
+DEBUG: Calling select_piece_bot((4, 2))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(4, 2)
+DEBUG: piece at (4, 2): { "source_id": 0, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((5, 2))
+DEBUG move_selected_piece_to: target=(5, 2), state=2, selected=(4, 2)
+DEBUG: is_valid_move((4, 2) -> (5, 2)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (5, 2) to (6, 2) (2 links remain)
+DEBUG: Bot chose - action: Reposition from: (5, 2) to: (6, 2) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (5, 2) to (6, 2)
+DEBUG: Calling select_piece_bot((5, 2))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(5, 2)
+DEBUG: piece at (5, 2): { "source_id": 0, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((6, 2))
+DEBUG move_selected_piece_to: target=(6, 2), state=2, selected=(5, 2)
+DEBUG: is_valid_move((5, 2) -> (6, 2)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (6, 2) to (7, 2) (1 links remain)
+DEBUG: Bot chose - action: Reposition from: (6, 2) to: (7, 2) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (6, 2) to (7, 2)
+DEBUG: Calling select_piece_bot((6, 2))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(6, 2)
+DEBUG: piece at (6, 2): { "source_id": 0, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((7, 2))
+DEBUG move_selected_piece_to: target=(7, 2), state=2, selected=(6, 2)
+DEBUG: is_valid_move((6, 2) -> (7, 2)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Capture (7, 2) to (8, 2) captured_sid=18 (0 links remain)
+DEBUG: Bot chose - action: Capture from: (7, 2) to: (8, 2) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (7, 2) to (8, 2)
+DEBUG: Calling select_piece_bot((7, 2))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(7, 2)
+DEBUG: piece at (7, 2): { "source_id": 0, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((8, 2))
+DEBUG move_selected_piece_to: target=(8, 2), state=2, selected=(7, 2)
+DEBUG: is_valid_move((7, 2) -> (8, 2)) = true
+DEBUG: Move executed
+DEBUG PLAN: board control ours=50 enemy=67
+DEBUG PLAN: player=2 difficulty=3
+DEBUG PLAN: human predicted chain value=8.0 start=(8, 2) links=4 control=63
+DEBUG PLAN: material balance = -5 (ours=61 enemy=66)
+DEBUG PLAN: extra-hard attacking candidate start=(9, 4) value=7.0 net_value=6.0 score=11.0
+DEBUG PLAN: extra-hard score is non-negative -> committing to chain from (9, 4)
+DEBUG FINAL: new plan, 2 links remain [21462ms]
+DEBUG PLAN: continuing -> Reposition (9, 4) to (8, 3) (2 links remain)
+DEBUG: Bot chose - action: Reposition from: (9, 4) to: (8, 3) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (9, 4) to (8, 3)
+DEBUG: Calling select_piece_bot((9, 4))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(9, 4)
+DEBUG: piece at (9, 4): { "source_id": 15, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((8, 3))
+DEBUG move_selected_piece_to: target=(8, 3), state=2, selected=(9, 4)
+DEBUG: is_valid_move((9, 4) -> (8, 3)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Capture (8, 3) to (8, 2) captured_sid=0 (1 links remain)
+DEBUG: Bot chose - action: Capture from: (8, 3) to: (8, 2) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (8, 3) to (8, 2)
+DEBUG: Calling select_piece_bot((8, 3))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(8, 3)
+DEBUG: piece at (8, 3): { "source_id": 15, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((8, 2))
+DEBUG move_selected_piece_to: target=(8, 2), state=2, selected=(8, 3)
+DEBUG: is_valid_move((8, 3) -> (8, 2)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (8, 2) to (8, 3) (0 links remain)
+DEBUG: Bot chose - action: Reposition from: (8, 2) to: (8, 3) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (8, 2) to (8, 3)
+DEBUG: Calling select_piece_bot((8, 2))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(8, 2)
+DEBUG: piece at (8, 2): { "source_id": 15, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((8, 3))
+DEBUG move_selected_piece_to: target=(8, 3), state=2, selected=(8, 2)
+DEBUG: is_valid_move((8, 2) -> (8, 3)) = true
+DEBUG: Move executed
+DEBUG PLAN: board control ours=50 enemy=51
+DEBUG PLAN: player=1 difficulty=2
+DEBUG PLAN: human predicted chain value=0.0 start=(10, 9) links=4 control=55
+DEBUG PLAN: material balance = 1 (ours=62 enemy=61)
+DEBUG PLAN: bot best chain value=0.0 start=(3, 0) links=4 control=65
+DEBUG PLAN: piece at (1, 7) is LOADED (gain=19.0 at reference roll 6 vs actual roll 4) -- protecting it from filler movement
+DEBUG PLAN: nothing safely capturable -- using safe (non-bait) filler move from (1, 9) instead of chain from (3, 0)
+DEBUG PLAN: net = capture 0.0 (ranked 0.0) - risk 5.0 (piece at (1, 9)) = -5.0
+DEBUG PLAN: B1 -- human turn value 0.0 >= bot turn value -5.0 -> checking defense
+DEBUG PLAN: no acceptable trade and no threatened piece identified -> attacking anyway
+DEBUG FINAL: new plan, 3 links remain [12320ms]
+DEBUG PLAN: continuing -> Reposition (1, 9) to (2, 10) (3 links remain)
+DEBUG: Bot chose - action: Reposition from: (1, 9) to: (2, 10) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (1, 9) to (2, 10)
+DEBUG: Calling select_piece_bot((1, 9))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(1, 9)
+DEBUG: piece at (1, 9): { "source_id": 2, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((2, 10))
+DEBUG move_selected_piece_to: target=(2, 10), state=2, selected=(1, 9)
+DEBUG: is_valid_move((1, 9) -> (2, 10)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (2, 10) to (2, 9) (2 links remain)
+DEBUG: Bot chose - action: Reposition from: (2, 10) to: (2, 9) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (2, 10) to (2, 9)
+DEBUG: Calling select_piece_bot((2, 10))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(2, 10)
+DEBUG: piece at (2, 10): { "source_id": 2, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((2, 9))
+DEBUG move_selected_piece_to: target=(2, 9), state=2, selected=(2, 10)
+DEBUG: is_valid_move((2, 10) -> (2, 9)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (2, 9) to (3, 9) (1 links remain)
+DEBUG: Bot chose - action: Reposition from: (2, 9) to: (3, 9) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (2, 9) to (3, 9)
+DEBUG: Calling select_piece_bot((2, 9))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(2, 9)
+DEBUG: piece at (2, 9): { "source_id": 2, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((3, 9))
+DEBUG move_selected_piece_to: target=(3, 9), state=2, selected=(2, 9)
+DEBUG: is_valid_move((2, 9) -> (3, 9)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (3, 9) to (4, 9) (0 links remain)
+DEBUG: Bot chose - action: Reposition from: (3, 9) to: (4, 9) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (3, 9) to (4, 9)
+DEBUG: Calling select_piece_bot((3, 9))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(3, 9)
+DEBUG: piece at (3, 9): { "source_id": 2, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((4, 9))
+DEBUG move_selected_piece_to: target=(4, 9), state=2, selected=(3, 9)
+DEBUG: is_valid_move((3, 9) -> (4, 9)) = true
+DEBUG: Move executed
+DEBUG PLAN: board control ours=51 enemy=56
+DEBUG PLAN: player=2 difficulty=3
+DEBUG PLAN: human predicted chain value=0.0 start=(3, 0) links=4 control=71
+DEBUG PLAN: material balance = -1 (ours=61 enemy=62)
+DEBUG PLAN: bot best chain value=0.0 start=(10, 9) links=3 control=53
+DEBUG PLAN: piece at (10, 5) is LOADED (gain=19.0 at reference roll 6 vs actual roll 3) -- protecting it from filler movement
+DEBUG PLAN: nothing safely capturable -- using safe (non-bait) filler move from (9, 6) instead of chain from (10, 9)
+DEBUG PLAN: net = capture 0.0 (ranked 0.0) - risk 5.0 (piece at (9, 6)) = -5.0
+DEBUG PLAN: B1 -- human turn value 0.0 >= bot turn value -5.0 -> checking defense
+DEBUG PLAN: no acceptable trade and no threatened piece identified -> attacking anyway
+DEBUG FINAL: new plan, 2 links remain [13897ms]
+DEBUG PLAN: continuing -> Reposition (9, 6) to (9, 7) (2 links remain)
+DEBUG: Bot chose - action: Reposition from: (9, 6) to: (9, 7) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (9, 6) to (9, 7)
+DEBUG: Calling select_piece_bot((9, 6))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(9, 6)
+DEBUG: piece at (9, 6): { "source_id": 15, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((9, 7))
+DEBUG move_selected_piece_to: target=(9, 7), state=2, selected=(9, 6)
+DEBUG: is_valid_move((9, 6) -> (9, 7)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (9, 7) to (10, 8) (1 links remain)
+DEBUG: Bot chose - action: Reposition from: (9, 7) to: (10, 8) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (9, 7) to (10, 8)
+DEBUG: Calling select_piece_bot((9, 7))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(9, 7)
+DEBUG: piece at (9, 7): { "source_id": 15, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((10, 8))
+DEBUG move_selected_piece_to: target=(10, 8), state=2, selected=(9, 7)
+DEBUG: is_valid_move((9, 7) -> (10, 8)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (10, 8) to (9, 9) (0 links remain)
+DEBUG: Bot chose - action: Reposition from: (10, 8) to: (9, 9) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (10, 8) to (9, 9)
+DEBUG: Calling select_piece_bot((10, 8))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(10, 8)
+DEBUG: piece at (10, 8): { "source_id": 15, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((9, 9))
+DEBUG move_selected_piece_to: target=(9, 9), state=2, selected=(10, 8)
+DEBUG: is_valid_move((10, 8) -> (9, 9)) = true
+DEBUG: Move executed
+DEBUG PLAN: board control ours=56 enemy=51
+DEBUG PLAN: player=1 difficulty=2
+DEBUG H0: 5th chain-link from (10, 7) reaches a double piece or higher-level trade (captures 10.0 > 4-link cap 5.0) -> assuming a roll of 5
+DEBUG PLAN: human predicted chain value=10.0 start=(10, 7) links=5 control=66
+DEBUG PLAN: material balance = 1 (ours=62 enemy=61)
+DEBUG PLAN: bot best chain value=0.0 start=(3, 0) links=4 control=71
+DEBUG PLAN: piece at (1, 7) is LOADED (gain=14.0 at reference roll 6 vs actual roll 4) -- protecting it from filler movement
+DEBUG PLAN: nothing safely capturable -- using safe (non-bait) filler move from (1, 1) instead of chain from (3, 0)
+DEBUG PLAN: net = capture 0.0 (ranked 0.0) - risk 5.0 (piece at (1, 1)) = -5.0
+DEBUG PLAN: B1 -- human turn value 10.0 >= bot turn value -5.0 -> checking defense
+DEBUG PLAN: piece at (4, 9) can be reclaimed via (3, 9) after h0's chain lands at (3, 10) -- repositioning toward it (D2)
+DEBUG PLAN: piece at (3, 10) could be reclaimed after h0's chain, but D2 found no useful reposition -- falling through to escape/bait triage
+DEBUG PLAN: piece at (3, 10) left as bait (F3) -- h0's attacker (value 9) is worth more than this piece (value 5) and it's defended
+DEBUG FINAL: new plan, 3 links remain [19630ms]
+DEBUG PLAN: continuing -> Reposition (4, 9) to (5, 9) (3 links remain)
+DEBUG: Bot chose - action: Reposition from: (4, 9) to: (5, 9) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (4, 9) to (5, 9)
+DEBUG: Calling select_piece_bot((4, 9))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(4, 9)
+DEBUG: piece at (4, 9): { "source_id": 2, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((5, 9))
+DEBUG move_selected_piece_to: target=(5, 9), state=2, selected=(4, 9)
+DEBUG: is_valid_move((4, 9) -> (5, 9)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (5, 9) to (4, 9) (2 links remain)
+DEBUG: Bot chose - action: Reposition from: (5, 9) to: (4, 9) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (5, 9) to (4, 9)
+DEBUG: Calling select_piece_bot((5, 9))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(5, 9)
+DEBUG: piece at (5, 9): { "source_id": 2, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((4, 9))
+DEBUG move_selected_piece_to: target=(4, 9), state=2, selected=(5, 9)
+DEBUG: is_valid_move((5, 9) -> (4, 9)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (4, 9) to (3, 9) (1 links remain)
+DEBUG: Bot chose - action: Reposition from: (4, 9) to: (3, 9) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (4, 9) to (3, 9)
+DEBUG: Calling select_piece_bot((4, 9))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(4, 9)
+DEBUG: piece at (4, 9): { "source_id": 2, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((3, 9))
+DEBUG move_selected_piece_to: target=(3, 9), state=2, selected=(4, 9)
+DEBUG: is_valid_move((4, 9) -> (3, 9)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (1, 1) to (2, 1) (0 links remain)
+DEBUG: Bot chose - action: Reposition from: (1, 1) to: (2, 1) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (1, 1) to (2, 1)
+DEBUG: Calling select_piece_bot((1, 1))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(1, 1)
+DEBUG: piece at (1, 1): { "source_id": 20, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((2, 1))
+DEBUG move_selected_piece_to: target=(2, 1), state=2, selected=(1, 1)
+DEBUG: is_valid_move((1, 1) -> (2, 1)) = true
+DEBUG: Move executed
+DEBUG PLAN: board control ours=51 enemy=53
+DEBUG PLAN: player=2 difficulty=3
+DEBUG PLAN: human predicted chain value=0.0 start=(3, 0) links=4 control=68
+DEBUG PLAN: material balance = -1 (ours=61 enemy=62)
+DEBUG H0: 5th chain-link from (1, 7) reaches a double piece or higher-level trade (captures 13.0 > 4-link cap 8.0) -> assuming a roll of 5
+DEBUG EXTRA-HARD: candidate from (10, 5) (value=5.0 mover_value=14.0 score=28.0) rejected for single-dive -- immediate exchange -9.0 not affordable (material balance -1)
+DEBUG EXTRA-HARD: candidate from (10, 7) (value=5.0 mover_value=9.0 score=28.0) rejected for single-dive -- immediate exchange -4.0 not affordable (material balance -1)
+DEBUG EXTRA-HARD: candidate from (10, 3) (value=5.0 mover_value=8.0 score=24.0) rejected for single-dive -- immediate exchange -8.0 not affordable (material balance -1)
+DEBUG PLAN: bot best chain value=5.0 start=(10, 3) links=5 control=67
+DEBUG PLAN: best chain from (10, 3) (value=5.0) is a TRAP -- extra-hard lookahead found the human's best immediate reply takes 5.0 net (immediate exchange -8.0 not affordable, material balance -1) -- treating as nothing safely capturable
+DEBUG PLAN: piece at (10, 5) is LOADED (gain=14.0 at reference roll 6 vs actual roll 5) -- protecting it from filler movement
+DEBUG PLAN: best chain from (10, 3) (value=5.0) is a TRAP -- no defense improves this piece's safety (or advancing elsewhere scores better) -> leaving it in the doomed position and advancing with (10, 9) instead (position 1.6)
+DEBUG PLAN: nothing safely capturable -- using safe (non-bait) filler move from (10, 9) instead of chain from (10, 9)
+DEBUG PLAN: net = capture 0.0 (ranked 0.0) - risk 5.0 (piece at (10, 9)) = -5.0
+DEBUG PLAN: B1 -- human turn value 0.0 >= bot turn value -5.0 -> checking defense
+DEBUG PLAN: no acceptable trade and no threatened piece identified -> attacking anyway
+DEBUG FINAL: new plan, 4 links remain [36725ms]
+DEBUG PLAN: continuing -> Reposition (10, 9) to (10, 8) (4 links remain)
+DEBUG: Bot chose - action: Reposition from: (10, 9) to: (10, 8) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (10, 9) to (10, 8)
+DEBUG: Calling select_piece_bot((10, 9))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(10, 9)
+DEBUG: piece at (10, 9): { "source_id": 12, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((10, 8))
+DEBUG move_selected_piece_to: target=(10, 8), state=2, selected=(10, 9)
+DEBUG: is_valid_move((10, 9) -> (10, 8)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (10, 8) to (9, 7) (3 links remain)
+DEBUG: Bot chose - action: Reposition from: (10, 8) to: (9, 7) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (10, 8) to (9, 7)
+DEBUG: Calling select_piece_bot((10, 8))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(10, 8)
+DEBUG: piece at (10, 8): { "source_id": 12, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((9, 7))
+DEBUG move_selected_piece_to: target=(9, 7), state=2, selected=(10, 8)
+DEBUG: is_valid_move((10, 8) -> (9, 7)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (9, 7) to (9, 6) (2 links remain)
+DEBUG: Bot chose - action: Reposition from: (9, 7) to: (9, 6) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (9, 7) to (9, 6)
+DEBUG: Calling select_piece_bot((9, 7))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(9, 7)
+DEBUG: piece at (9, 7): { "source_id": 12, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((9, 6))
+DEBUG move_selected_piece_to: target=(9, 6), state=2, selected=(9, 7)
+DEBUG: is_valid_move((9, 7) -> (9, 6)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (9, 6) to (8, 5) (1 links remain)
+DEBUG: Bot chose - action: Reposition from: (9, 6) to: (8, 5) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (9, 6) to (8, 5)
+DEBUG: Calling select_piece_bot((9, 6))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(9, 6)
+DEBUG: piece at (9, 6): { "source_id": 12, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((8, 5))
+DEBUG move_selected_piece_to: target=(8, 5), state=2, selected=(9, 6)
+DEBUG: is_valid_move((9, 6) -> (8, 5)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (8, 5) to (8, 4) (0 links remain)
+DEBUG: Bot chose - action: Reposition from: (8, 5) to: (8, 4) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (8, 5) to (8, 4)
+DEBUG: Calling select_piece_bot((8, 5))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(8, 5)
+DEBUG: piece at (8, 5): { "source_id": 12, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((8, 4))
+DEBUG move_selected_piece_to: target=(8, 4), state=2, selected=(8, 5)
+DEBUG: is_valid_move((8, 5) -> (8, 4)) = true
+DEBUG: Move executed
+DEBUG PLAN: board control ours=53 enemy=56
+DEBUG PLAN: player=1 difficulty=2
+DEBUG PLAN: human predicted chain value=0.0 start=(8, 4) links=4 control=60
+DEBUG PLAN: material balance = 1 (ours=62 enemy=61)
+DEBUG PLAN: bot best chain value=5.0 start=(1, 7) links=5 control=68
+DEBUG PLAN: net = capture 5.0 (ranked 5.0) - risk 9.0 (piece at (1, 7)) = -4.0
+DEBUG PLAN: B1 -- human turn value 0.0 >= bot turn value -4.0 -> checking defense
+DEBUG PLAN: no acceptable trade and no threatened piece identified -> attacking anyway
+DEBUG FINAL: new plan, 4 links remain [6657ms]
+DEBUG PLAN: continuing -> Reposition (1, 7) to (3, 8) (4 links remain)
+DEBUG: Bot chose - action: Reposition from: (1, 7) to: (3, 8) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (1, 7) to (3, 8)
+DEBUG: Calling select_piece_bot((1, 7))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(1, 7)
+DEBUG: piece at (1, 7): { "source_id": 7, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((3, 8))
+DEBUG move_selected_piece_to: target=(3, 8), state=2, selected=(1, 7)
+DEBUG: is_valid_move((1, 7) -> (3, 8)) = true
+DEBUG: Move executed
+MusicPlayer: playing res://assets/HexAudio/HexMusic/RetroandSynthwave-OdysseybyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+DEBUG PLAN: continuing -> Reposition (3, 8) to (4, 7) (3 links remain)
+DEBUG: Bot chose - action: Reposition from: (3, 8) to: (4, 7) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (3, 8) to (4, 7)
+DEBUG: Calling select_piece_bot((3, 8))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(3, 8)
+DEBUG: piece at (3, 8): { "source_id": 7, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((4, 7))
+DEBUG move_selected_piece_to: target=(4, 7), state=2, selected=(3, 8)
+DEBUG: is_valid_move((3, 8) -> (4, 7)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (4, 7) to (6, 6) (2 links remain)
+DEBUG: Bot chose - action: Reposition from: (4, 7) to: (6, 6) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (4, 7) to (6, 6)
+DEBUG: Calling select_piece_bot((4, 7))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(4, 7)
+DEBUG: piece at (4, 7): { "source_id": 7, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((6, 6))
+DEBUG move_selected_piece_to: target=(6, 6), state=2, selected=(4, 7)
+DEBUG: is_valid_move((4, 7) -> (6, 6)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (6, 6) to (7, 7) (1 links remain)
+DEBUG: Bot chose - action: Reposition from: (6, 6) to: (7, 7) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (6, 6) to (7, 7)
+DEBUG: Calling select_piece_bot((6, 6))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(6, 6)
+DEBUG: piece at (6, 6): { "source_id": 7, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((7, 7))
+DEBUG move_selected_piece_to: target=(7, 7), state=2, selected=(6, 6)
+DEBUG: is_valid_move((6, 6) -> (7, 7)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Capture (7, 7) to (9, 8) captured_sid=14 (0 links remain)
+DEBUG: Bot chose - action: Capture from: (7, 7) to: (9, 8) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (7, 7) to (9, 8)
+DEBUG: Calling select_piece_bot((7, 7))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(7, 7)
+DEBUG: piece at (7, 7): { "source_id": 7, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((9, 8))
+DEBUG move_selected_piece_to: target=(9, 8), state=2, selected=(7, 7)
+DEBUG: is_valid_move((7, 7) -> (9, 8)) = true
+DEBUG: Move executed
+DEBUG PLAN: board control ours=55 enemy=68
+DEBUG PLAN: player=2 difficulty=3
+DEBUG H0: 5th chain-link from (9, 8) reaches a double piece or higher-level trade (captures 36.0 > 4-link cap 31.0) -> assuming a roll of 5
+DEBUG PLAN: human predicted chain value=36.0 start=(9, 8) links=5 control=67
+DEBUG PLAN: material balance = -6 (ours=56 enemy=62)
+DEBUG PLAN: immediate capture available from (9, 9) -> (9, 8) (value=12.0 net=6.0) -> taking it now
+DEBUG FINAL: new plan, 0 links remain [2987ms]
+DEBUG PLAN: continuing -> Capture (9, 9) to (9, 8) captured_sid=7 (0 links remain)
+DEBUG: Bot chose - action: Capture from: (9, 9) to: (9, 8) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (9, 9) to (9, 8)
+DEBUG: Calling select_piece_bot((9, 9))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(9, 9)
+DEBUG: piece at (9, 9): { "source_id": 15, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((9, 8))
+DEBUG move_selected_piece_to: target=(9, 8), state=2, selected=(9, 9)
+DEBUG: is_valid_move((9, 9) -> (9, 8)) = true
+DEBUG: Move executed
+DEBUG PLAN: board control ours=55 enemy=53
+DEBUG PLAN: player=2 difficulty=3
+DEBUG PLAN: human predicted chain value=0.0 start=(3, 0) links=4 control=68
+DEBUG PLAN: material balance = 3 (ours=56 enemy=53)
+DEBUG PLAN: bot best chain value=0.0 start=(8, 4) links=3 control=60
+DEBUG PLAN: piece at (10, 5) is LOADED (gain=19.0 at reference roll 6 vs actual roll 3) -- protecting it from filler movement
+DEBUG PLAN: nothing safely capturable -- using safe (non-bait) filler move from (10, 1) instead of chain from (8, 4)
+DEBUG PLAN: net = capture 0.0 (ranked 0.0) - risk 5.0 (piece at (10, 1)) = -5.0
+DEBUG PLAN: B1 -- human turn value 0.0 >= bot turn value -5.0 -> checking defense
+DEBUG PLAN: no acceptable trade and no threatened piece identified -> attacking anyway
+DEBUG FINAL: new plan, 2 links remain [9640ms]
+DEBUG PLAN: continuing -> Reposition (10, 1) to (10, 0) (2 links remain)
+DEBUG: Bot chose - action: Reposition from: (10, 1) to: (10, 0) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (10, 1) to (10, 0)
+DEBUG: Calling select_piece_bot((10, 1))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(10, 1)
+DEBUG: piece at (10, 1): { "source_id": 19, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((10, 0))
+DEBUG move_selected_piece_to: target=(10, 0), state=2, selected=(10, 1)
+DEBUG: is_valid_move((10, 1) -> (10, 0)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (10, 0) to (9, 1) (1 links remain)
+DEBUG: Bot chose - action: Reposition from: (10, 0) to: (9, 1) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (10, 0) to (9, 1)
+DEBUG: Calling select_piece_bot((10, 0))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(10, 0)
+DEBUG: piece at (10, 0): { "source_id": 19, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((9, 1))
+DEBUG move_selected_piece_to: target=(9, 1), state=2, selected=(10, 0)
+DEBUG: is_valid_move((10, 0) -> (9, 1)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (9, 1) to (9, 2) (0 links remain)
+DEBUG: Bot chose - action: Reposition from: (9, 1) to: (9, 2) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (9, 1) to (9, 2)
+DEBUG: Calling select_piece_bot((9, 1))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(9, 1)
+DEBUG: piece at (9, 1): { "source_id": 19, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((9, 2))
+DEBUG move_selected_piece_to: target=(9, 2), state=2, selected=(9, 1)
+DEBUG: is_valid_move((9, 1) -> (9, 2)) = true
+DEBUG: Move executed
+DEBUG PLAN: board control ours=53 enemy=55
+DEBUG PLAN: player=1 difficulty=2
+DEBUG PLAN: human predicted chain value=0.0 start=(9, 2) links=4 control=60
+DEBUG PLAN: material balance = -3 (ours=53 enemy=56)
+DEBUG PLAN: bot best chain value=0.0 start=(3, 9) links=3 control=64
+DEBUG PLAN: piece at (1, 3) is LOADED (gain=14.0 at reference roll 6 vs actual roll 3) -- protecting it from filler movement
+DEBUG PLAN: nothing safely capturable -- using safe (non-bait) filler move from (2, 1) instead of chain from (3, 9)
+DEBUG PLAN: net = capture 0.0 (ranked 0.0) - risk 5.0 (piece at (2, 1)) = -5.0
+DEBUG PLAN: B1 -- human turn value 0.0 >= bot turn value -5.0 -> checking defense
+DEBUG PLAN: no acceptable trade and no threatened piece identified -> attacking anyway
+DEBUG FINAL: new plan, 2 links remain [7953ms]
+DEBUG PLAN: continuing -> Reposition (2, 1) to (1, 1) (2 links remain)
+DEBUG: Bot chose - action: Reposition from: (2, 1) to: (1, 1) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (2, 1) to (1, 1)
+DEBUG: Calling select_piece_bot((2, 1))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(2, 1)
+DEBUG: piece at (2, 1): { "source_id": 20, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((1, 1))
+DEBUG move_selected_piece_to: target=(1, 1), state=2, selected=(2, 1)
+DEBUG: is_valid_move((2, 1) -> (1, 1)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (1, 1) to (2, 1) (1 links remain)
+DEBUG: Bot chose - action: Reposition from: (1, 1) to: (2, 1) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (1, 1) to (2, 1)
+DEBUG: Calling select_piece_bot((1, 1))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(1, 1)
+DEBUG: piece at (1, 1): { "source_id": 20, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((2, 1))
+DEBUG move_selected_piece_to: target=(2, 1), state=2, selected=(1, 1)
+DEBUG: is_valid_move((1, 1) -> (2, 1)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (2, 1) to (3, 1) (0 links remain)
+DEBUG: Bot chose - action: Reposition from: (2, 1) to: (3, 1) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (2, 1) to (3, 1)
+DEBUG: Calling select_piece_bot((2, 1))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(2, 1)
+DEBUG: piece at (2, 1): { "source_id": 20, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((3, 1))
+DEBUG move_selected_piece_to: target=(3, 1), state=2, selected=(2, 1)
+DEBUG: is_valid_move((2, 1) -> (3, 1)) = true
+DEBUG: Move executed
+DEBUG PLAN: board control ours=55 enemy=56
+DEBUG PLAN: player=2 difficulty=3
+DEBUG PLAN: human predicted chain value=0.0 start=(3, 1) links=4 control=70
+DEBUG PLAN: material balance = 3 (ours=56 enemy=53)
+DEBUG PLAN: bot best chain value=0.0 start=(9, 2) links=4 control=60
+DEBUG PLAN: piece at (10, 5) is LOADED (gain=19.0 at reference roll 6 vs actual roll 4) -- protecting it from filler movement
+DEBUG PLAN: nothing safely capturable -- using safe (non-bait) filler move from (10, 7) instead of chain from (9, 2)
+DEBUG PLAN: net = capture 0.0 (ranked 0.0) - risk 9.0 (piece at (10, 7)) = -9.0
+DEBUG PLAN: B1 -- human turn value 0.0 >= bot turn value -9.0 -> checking defense
+DEBUG PLAN: no acceptable trade and no threatened piece identified -> attacking anyway
+DEBUG FINAL: new plan, 3 links remain [9778ms]
+DEBUG PLAN: continuing -> Rotate (10, 7) by 120 deg (3 links remain)
+DEBUG: Bot chose - action: Rotate from: (10, 7) to: <null> score: 0.0 assessment: N/A
+DEBUG PLAN: board control ours=54 enemy=56
+DEBUG PLAN: player=2 difficulty=3
+DEBUG PLAN: human predicted chain value=0.0 start=(3, 1) links=4 control=70
+DEBUG PLAN: material balance = 3 (ours=56 enemy=53)
+DEBUG PLAN: bot best chain value=0.0 start=(8, 4) links=3 control=59
+DEBUG PLAN: piece at (10, 5) is LOADED (gain=19.0 at reference roll 6 vs actual roll 3) -- protecting it from filler movement
+DEBUG PLAN: nothing safely capturable -- using safe (non-bait) filler move from (10, 7) instead of chain from (8, 4)
+DEBUG PLAN: net = capture 0.0 (ranked 0.0) - risk 9.0 (piece at (10, 7)) = -9.0
+DEBUG PLAN: B1 -- human turn value 0.0 >= bot turn value -9.0 -> checking defense
+DEBUG PLAN: no acceptable trade and no threatened piece identified -> attacking anyway
+DEBUG FINAL: new plan, 2 links remain [9800ms]
+DEBUG PLAN: continuing -> Reposition (10, 7) to (10, 8) (2 links remain)
+DEBUG: Bot chose - action: Reposition from: (10, 7) to: (10, 8) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (10, 7) to (10, 8)
+DEBUG: Calling select_piece_bot((10, 7))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(10, 7)
+DEBUG: piece at (10, 7): { "source_id": 17, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((10, 8))
+DEBUG move_selected_piece_to: target=(10, 8), state=2, selected=(10, 7)
+DEBUG: is_valid_move((10, 7) -> (10, 8)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (10, 8) to (10, 6) (1 links remain)
+DEBUG: Bot chose - action: Reposition from: (10, 8) to: (10, 6) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (10, 8) to (10, 6)
+DEBUG: Calling select_piece_bot((10, 8))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(10, 8)
+DEBUG: piece at (10, 8): { "source_id": 17, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((10, 6))
+DEBUG move_selected_piece_to: target=(10, 6), state=2, selected=(10, 8)
+DEBUG: is_valid_move((10, 8) -> (10, 6)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (10, 6) to (10, 4) (0 links remain)
+DEBUG: Bot chose - action: Reposition from: (10, 6) to: (10, 4) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (10, 6) to (10, 4)
+DEBUG: Calling select_piece_bot((10, 6))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(10, 6)
+DEBUG: piece at (10, 6): { "source_id": 17, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((10, 4))
+DEBUG move_selected_piece_to: target=(10, 4), state=2, selected=(10, 6)
+DEBUG: is_valid_move((10, 6) -> (10, 4)) = true
+DEBUG: Move executed
+DEBUG PLAN: board control ours=56 enemy=54
+DEBUG PLAN: player=1 difficulty=2
+DEBUG PLAN: human predicted chain value=0.0 start=(9, 2) links=4 control=59
+DEBUG PLAN: material balance = -3 (ours=53 enemy=56)
+DEBUG PLAN: bot best chain value=0.0 start=(3, 1) links=4 control=70
+DEBUG PLAN: piece at (1, 3) is LOADED (gain=14.0 at reference roll 6 vs actual roll 4) -- protecting it from filler movement
+DEBUG PLAN: nothing safely capturable -- using safe (non-bait) filler move from (3, 6) instead of chain from (3, 1)
+DEBUG PLAN: net = capture 0.0 (ranked 0.0) - risk 5.0 (piece at (3, 6)) = -5.0
+DEBUG PLAN: B1 -- human turn value 0.0 >= bot turn value -5.0 -> checking defense
+DEBUG PLAN: no acceptable trade and no threatened piece identified -> attacking anyway
+DEBUG FINAL: new plan, 3 links remain [7968ms]
+DEBUG PLAN: continuing -> Reposition (3, 6) to (2, 5) (3 links remain)
+DEBUG: Bot chose - action: Reposition from: (3, 6) to: (2, 5) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (3, 6) to (2, 5)
+DEBUG: Calling select_piece_bot((3, 6))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(3, 6)
+DEBUG: piece at (3, 6): { "source_id": 5, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((2, 5))
+DEBUG move_selected_piece_to: target=(2, 5), state=2, selected=(3, 6)
+DEBUG: is_valid_move((3, 6) -> (2, 5)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (2, 5) to (3, 6) (2 links remain)
+DEBUG: Bot chose - action: Reposition from: (2, 5) to: (3, 6) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (2, 5) to (3, 6)
+DEBUG: Calling select_piece_bot((2, 5))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(2, 5)
+DEBUG: piece at (2, 5): { "source_id": 5, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((3, 6))
+DEBUG move_selected_piece_to: target=(3, 6), state=2, selected=(2, 5)
+DEBUG: is_valid_move((2, 5) -> (3, 6)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (3, 6) to (3, 7) (1 links remain)
+DEBUG: Bot chose - action: Reposition from: (3, 6) to: (3, 7) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (3, 6) to (3, 7)
+DEBUG: Calling select_piece_bot((3, 6))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(3, 6)
+DEBUG: piece at (3, 6): { "source_id": 5, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((3, 7))
+DEBUG move_selected_piece_to: target=(3, 7), state=2, selected=(3, 6)
+DEBUG: is_valid_move((3, 6) -> (3, 7)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (3, 7) to (4, 8) (0 links remain)
+DEBUG: Bot chose - action: Reposition from: (3, 7) to: (4, 8) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (3, 7) to (4, 8)
+DEBUG: Calling select_piece_bot((3, 7))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(3, 7)
+DEBUG: piece at (3, 7): { "source_id": 5, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((4, 8))
+DEBUG move_selected_piece_to: target=(4, 8), state=2, selected=(3, 7)
+DEBUG: is_valid_move((3, 7) -> (4, 8)) = true
+DEBUG: Move executed
+DEBUG PLAN: board control ours=54 enemy=57
+DEBUG PLAN: player=2 difficulty=3
+DEBUG PLAN: human predicted chain value=0.0 start=(3, 9) links=4 control=73
+DEBUG PLAN: material balance = 3 (ours=56 enemy=53)
+DEBUG PLAN: bot best chain value=0.0 start=(9, 2) links=4 control=59
+DEBUG PLAN: piece at (10, 5) is LOADED (gain=19.0 at reference roll 6 vs actual roll 4) -- protecting it from filler movement
+DEBUG PLAN: nothing safely capturable -- using safe (non-bait) filler move from (10, 3) instead of chain from (9, 2)
+DEBUG PLAN: net = capture 0.0 (ranked 0.0) - risk 8.0 (piece at (10, 3)) = -8.0
+DEBUG PLAN: B1 -- human turn value 0.0 >= bot turn value -8.0 -> checking defense
+DEBUG PLAN: no acceptable trade and no threatened piece identified -> attacking anyway
+DEBUG FINAL: new plan, 3 links remain [9410ms]
+DEBUG PLAN: continuing -> Rotate (10, 3) by 60 deg (3 links remain)
+DEBUG: Bot chose - action: Rotate from: (10, 3) to: <null> score: 0.0 assessment: N/A
+DEBUG PLAN: board control ours=54 enemy=57
+DEBUG PLAN: player=2 difficulty=3
+DEBUG PLAN: human predicted chain value=0.0 start=(3, 9) links=4 control=73
+DEBUG PLAN: material balance = 3 (ours=56 enemy=53)
+DEBUG PLAN: bot best chain value=0.0 start=(8, 4) links=3 control=59
+DEBUG PLAN: piece at (10, 5) is LOADED (gain=19.0 at reference roll 6 vs actual roll 3) -- protecting it from filler movement
+DEBUG PLAN: nothing safely capturable -- using safe (non-bait) filler move from (10, 3) instead of chain from (8, 4)
+DEBUG PLAN: net = capture 0.0 (ranked 0.0) - risk 8.0 (piece at (10, 3)) = -8.0
+DEBUG PLAN: B1 -- human turn value 0.0 >= bot turn value -8.0 -> checking defense
+DEBUG PLAN: no acceptable trade and no threatened piece identified -> attacking anyway
+DEBUG FINAL: new plan, 2 links remain [9391ms]
+DEBUG PLAN: continuing -> Reposition (10, 3) to (10, 1) (2 links remain)
+DEBUG: Bot chose - action: Reposition from: (10, 3) to: (10, 1) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (10, 3) to (10, 1)
+DEBUG: Calling select_piece_bot((10, 3))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(10, 3)
+DEBUG: piece at (10, 3): { "source_id": 22, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((10, 1))
+DEBUG move_selected_piece_to: target=(10, 1), state=2, selected=(10, 3)
+DEBUG: is_valid_move((10, 3) -> (10, 1)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Rotate (10, 1) by 60 deg (1 links remain)
+DEBUG: Bot chose - action: Rotate from: (10, 1) to: <null> score: 0.0 assessment: N/A
+DEBUG PLAN: board control ours=54 enemy=57
+DEBUG PLAN: player=2 difficulty=3
+DEBUG PLAN: human predicted chain value=0.0 start=(3, 9) links=4 control=73
+DEBUG PLAN: material balance = 3 (ours=56 enemy=53)
+DEBUG PLAN: bot best chain value=0.0 start=(8, 4) links=1 control=56
+DEBUG PLAN: piece at (10, 5) is LOADED (gain=19.0 at reference roll 6 vs actual roll 1) -- protecting it from filler movement
+DEBUG PLAN: nothing safely capturable -- using safe (non-bait) filler move from (9, 0) instead of chain from (8, 4)
+DEBUG PLAN: net = capture 0.0 (ranked 0.0) - risk 5.0 (piece at (9, 0)) = -5.0
+DEBUG PLAN: B1 -- human turn value 0.0 >= bot turn value -5.0 -> checking defense
+DEBUG PLAN: no acceptable trade and no threatened piece identified -> attacking anyway
+DEBUG FINAL: new plan, 0 links remain [9275ms]
+DEBUG PLAN: continuing -> Reposition (9, 0) to (8, 1) (0 links remain)
+DEBUG: Bot chose - action: Reposition from: (9, 0) to: (8, 1) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (9, 0) to (8, 1)
+DEBUG: Calling select_piece_bot((9, 0))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(9, 0)
+DEBUG: piece at (9, 0): { "source_id": 13, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((8, 1))
+DEBUG move_selected_piece_to: target=(8, 1), state=2, selected=(9, 0)
+DEBUG: is_valid_move((9, 0) -> (8, 1)) = true
+DEBUG: Move executed
+DEBUG PLAN: board control ours=57 enemy=54
+DEBUG PLAN: player=1 difficulty=2
+DEBUG PLAN: human predicted chain value=0.0 start=(9, 2) links=4 control=62
+DEBUG PLAN: material balance = -3 (ours=53 enemy=56)
+DEBUG PLAN: bot best chain value=0.0 start=(3, 9) links=4 control=73
+DEBUG PLAN: piece at (1, 5) is LOADED (gain=14.0 at reference roll 6 vs actual roll 4) -- protecting it from filler movement
+DEBUG PLAN: nothing safely capturable -- using safe (non-bait) filler move from (1, 3) instead of chain from (3, 9)
+DEBUG PLAN: net = capture 0.0 (ranked 0.0) - risk 9.0 (piece at (1, 3)) = -9.0
+DEBUG PLAN: B1 -- human turn value 0.0 >= bot turn value -9.0 -> checking defense
+DEBUG PLAN: no acceptable trade and no threatened piece identified -> attacking anyway
+DEBUG FINAL: new plan, 3 links remain [8159ms]
+DEBUG PLAN: continuing -> Rotate (1, 3) by 60 deg (3 links remain)
+DEBUG: Bot chose - action: Rotate from: (1, 3) to: <null> score: 0.0 assessment: N/A
+DEBUG PLAN: board control ours=57 enemy=54
+DEBUG PLAN: player=1 difficulty=2
+DEBUG PLAN: human predicted chain value=0.0 start=(9, 2) links=4 control=62
+DEBUG PLAN: material balance = -3 (ours=53 enemy=56)
+DEBUG PLAN: bot best chain value=0.0 start=(3, 9) links=3 control=70
+DEBUG PLAN: piece at (1, 5) is LOADED (gain=14.0 at reference roll 6 vs actual roll 3) -- protecting it from filler movement
+DEBUG PLAN: nothing safely capturable -- using safe (non-bait) filler move from (3, 9) instead of chain from (3, 9)
+DEBUG PLAN: net = capture 0.0 (ranked 0.0) - risk 5.0 (piece at (3, 9)) = -5.0
+DEBUG PLAN: B1 -- human turn value 0.0 >= bot turn value -5.0 -> checking defense
+DEBUG PLAN: no acceptable trade and no threatened piece identified -> attacking anyway
+DEBUG FINAL: new plan, 2 links remain [7643ms]
+DEBUG PLAN: continuing -> Reposition (3, 9) to (2, 9) (2 links remain)
+DEBUG: Bot chose - action: Reposition from: (3, 9) to: (2, 9) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (3, 9) to (2, 9)
+DEBUG: Calling select_piece_bot((3, 9))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(3, 9)
+DEBUG: piece at (3, 9): { "source_id": 2, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((2, 9))
+DEBUG move_selected_piece_to: target=(2, 9), state=2, selected=(3, 9)
+DEBUG: is_valid_move((3, 9) -> (2, 9)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (2, 9) to (3, 9) (1 links remain)
+DEBUG: Bot chose - action: Reposition from: (2, 9) to: (3, 9) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (2, 9) to (3, 9)
+DEBUG: Calling select_piece_bot((2, 9))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(2, 9)
+DEBUG: piece at (2, 9): { "source_id": 2, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((3, 9))
+DEBUG move_selected_piece_to: target=(3, 9), state=2, selected=(2, 9)
+DEBUG: is_valid_move((2, 9) -> (3, 9)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (3, 9) to (4, 9) (0 links remain)
+DEBUG: Bot chose - action: Reposition from: (3, 9) to: (4, 9) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (3, 9) to (4, 9)
+DEBUG: Calling select_piece_bot((3, 9))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(3, 9)
+DEBUG: piece at (3, 9): { "source_id": 2, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((4, 9))
+DEBUG move_selected_piece_to: target=(4, 9), state=2, selected=(3, 9)
+DEBUG: is_valid_move((3, 9) -> (4, 9)) = true
+DEBUG: Move executed
+DEBUG PLAN: board control ours=54 enemy=61
+DEBUG PLAN: player=2 difficulty=3
+DEBUG PLAN: human predicted chain value=0.0 start=(3, 1) links=4 control=75
+DEBUG PLAN: material balance = 3 (ours=56 enemy=53)
+DEBUG EXTRA-HARD: candidate from (10, 5) (value=5.0 mover_value=14.0 score=19.0) rejected for single-dive -- immediate exchange -9.0 not affordable (material balance 3)
+DEBUG PLAN: bot best chain value=5.0 start=(10, 5) links=4 control=66
+DEBUG PLAN: best chain from (10, 5) (value=5.0) is a TRAP -- extra-hard lookahead found the human's best immediate reply takes 5.0 net (immediate exchange -9.0 not affordable, material balance 3) -- treating as nothing safely capturable
+DEBUG PLAN: piece at (10, 5) is LOADED (gain=14.0 at reference roll 6 vs actual roll 4) -- protecting it from filler movement
+DEBUG PLAN: best chain from (10, 5) (value=5.0) is a TRAP -- no defense improves this piece's safety (or advancing elsewhere scores better) -> leaving it in the doomed position and advancing with (10, 1) instead (position 1.6)
+DEBUG PLAN: nothing safely capturable -- using safe (non-bait) filler move from (10, 1) instead of chain from (10, 1)
+DEBUG PLAN: net = capture 0.0 (ranked 0.0) - risk 8.0 (piece at (10, 1)) = -8.0
+DEBUG PLAN: B1 -- human turn value 0.0 >= bot turn value -8.0 -> checking defense
+DEBUG PLAN: no acceptable trade and no threatened piece identified -> attacking anyway
+DEBUG FINAL: new plan, 2 links remain [17231ms]
+DEBUG PLAN: continuing -> Reposition (10, 1) to (10, 2) (2 links remain)
+DEBUG: Bot chose - action: Reposition from: (10, 1) to: (10, 2) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (10, 1) to (10, 2)
+DEBUG: Calling select_piece_bot((10, 1))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(10, 1)
+DEBUG: piece at (10, 1): { "source_id": 22, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((10, 2))
+DEBUG move_selected_piece_to: target=(10, 2), state=2, selected=(10, 1)
+DEBUG: is_valid_move((10, 1) -> (10, 2)) = true
+DEBUG: Move executed
+DEBUG PLAN: size mismatch (plan=2, points=3), replanning
+DEBUG PLAN: board control ours=54 enemy=61
+DEBUG PLAN: player=2 difficulty=3
+DEBUG PLAN: human predicted chain value=0.0 start=(3, 1) links=4 control=75
+DEBUG PLAN: material balance = 3 (ours=56 enemy=53)
+DEBUG PLAN: bot best chain value=0.0 start=(8, 4) links=3 control=59
+DEBUG PLAN: piece at (10, 5) is LOADED (gain=19.0 at reference roll 6 vs actual roll 3) -- protecting it from filler movement
+DEBUG PLAN: nothing safely capturable -- using safe (non-bait) filler move from (10, 2) instead of chain from (8, 4)
+DEBUG PLAN: net = capture 0.0 (ranked 0.0) - risk 8.0 (piece at (10, 2)) = -8.0
+DEBUG PLAN: B1 -- human turn value 0.0 >= bot turn value -8.0 -> checking defense
+DEBUG PLAN: no acceptable trade and no threatened piece identified -> attacking anyway
+DEBUG FINAL: new plan, 1 links remain [8065ms]
+DEBUG PLAN: continuing -> Reposition (10, 2) to (10, 0) (1 links remain)
+DEBUG: Bot chose - action: Reposition from: (10, 2) to: (10, 0) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (10, 2) to (10, 0)
+DEBUG: Calling select_piece_bot((10, 2))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(10, 2)
+DEBUG: piece at (10, 2): { "source_id": 22, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((10, 0))
+DEBUG move_selected_piece_to: target=(10, 0), state=2, selected=(10, 2)
+DEBUG: is_valid_move((10, 2) -> (10, 0)) = true
+DEBUG: Move executed
+DEBUG PLAN: size mismatch (plan=1, points=2), replanning
+DEBUG PLAN: board control ours=54 enemy=61
+DEBUG PLAN: player=2 difficulty=3
+DEBUG PLAN: human predicted chain value=0.0 start=(3, 1) links=4 control=75
+DEBUG PLAN: material balance = 3 (ours=56 enemy=53)
+DEBUG PLAN: bot best chain value=0.0 start=(9, 2) links=2 control=58
+DEBUG PLAN: piece at (10, 5) is LOADED (gain=19.0 at reference roll 6 vs actual roll 2) -- protecting it from filler movement
+DEBUG PLAN: nothing safely capturable -- using safe (non-bait) filler move from (10, 0) instead of chain from (9, 2)
+DEBUG PLAN: net = capture 0.0 (ranked 0.0) - risk 8.0 (piece at (10, 0)) = -8.0
+DEBUG PLAN: B1 -- human turn value 0.0 >= bot turn value -8.0 -> checking defense
+DEBUG PLAN: no acceptable trade and no threatened piece identified -> attacking anyway
+DEBUG FINAL: new plan, 0 links remain [9138ms]
+DEBUG PLAN: continuing -> Reposition (10, 0) to (9, 1) (0 links remain)
+DEBUG: Bot chose - action: Reposition from: (10, 0) to: (9, 1) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (10, 0) to (9, 1)
+DEBUG: Calling select_piece_bot((10, 0))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(10, 0)
+DEBUG: piece at (10, 0): { "source_id": 22, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((9, 1))
+DEBUG move_selected_piece_to: target=(9, 1), state=2, selected=(10, 0)
+DEBUG: is_valid_move((10, 0) -> (9, 1)) = true
+DEBUG: Move executed
+DEBUG PLAN: board control ours=54 enemy=61
+DEBUG PLAN: player=2 difficulty=3
+DEBUG PLAN: human predicted chain value=0.0 start=(3, 1) links=4 control=75
+DEBUG PLAN: material balance = 3 (ours=56 enemy=53)
+DEBUG PLAN: bot best chain value=0.0 start=(9, 2) links=1 control=56
+DEBUG PLAN: piece at (10, 5) is LOADED (gain=19.0 at reference roll 6 vs actual roll 1) -- protecting it from filler movement
+DEBUG PLAN: nothing safely capturable -- using safe (non-bait) filler move from (9, 2) instead of chain from (9, 2)
+DEBUG PLAN: net = capture 0.0 (ranked 0.0) - risk 5.0 (piece at (9, 2)) = -5.0
+DEBUG PLAN: B1 -- human turn value 0.0 >= bot turn value -5.0 -> checking defense
+DEBUG PLAN: no acceptable trade and no threatened piece identified -> attacking anyway
+DEBUG FINAL: new plan, 0 links remain [6882ms]
+DEBUG PLAN: continuing -> Reposition (9, 2) to (8, 2) (0 links remain)
+DEBUG: Bot chose - action: Reposition from: (9, 2) to: (8, 2) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (9, 2) to (8, 2)
+DEBUG: Calling select_piece_bot((9, 2))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(9, 2)
+DEBUG: piece at (9, 2): { "source_id": 19, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((8, 2))
+DEBUG move_selected_piece_to: target=(8, 2), state=2, selected=(9, 2)
+DEBUG: is_valid_move((9, 2) -> (8, 2)) = true
+DEBUG: Move executed
+DEBUG PLAN: board control ours=61 enemy=56
+DEBUG PLAN: player=1 difficulty=2
+MusicPlayer: playing res://assets/HexAudio/HexMusic/DarkSuspenseandSynthwave-TheDeadbyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+DEBUG PLAN: human predicted chain value=5.0 start=(10, 5) links=4 control=68
+DEBUG PLAN: material balance = -3 (ours=53 enemy=56)
+DEBUG PLAN: bot best chain value=7.0 start=(4, 9) links=5 control=73
+DEBUG PLAN: net = capture 5.0 (ranked 7.0) - risk 5.0 (piece at (4, 9)) = 0.0
+DEBUG PLAN: B1 -- human turn value 5.0 >= bot turn value 0.0 -> checking defense
+DEBUG PLAN: best chain (start=(4, 9), net=0.0) not worth it -> safer capture from (4, 9) (net=0.0) available as fallback
+DEBUG PLAN: piece at (4, 9) could be reclaimed after h0's chain, but D2 found no useful reposition -- falling through to escape/bait triage
+DEBUG PLAN: piece at (4, 9) left as bait (F3) -- h0's attacker (value 14) is worth more than this piece (value 5) and it's defended
+DEBUG FINAL: new plan, 4 links remain [8504ms]
+DEBUG PLAN: continuing -> Reposition (1, 5) to (3, 6) (4 links remain)
+DEBUG: Bot chose - action: Reposition from: (1, 5) to: (3, 6) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (1, 5) to (3, 6)
+DEBUG: Calling select_piece_bot((1, 5))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(1, 5)
+DEBUG: piece at (1, 5): { "source_id": 6, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((3, 6))
+DEBUG move_selected_piece_to: target=(3, 6), state=2, selected=(1, 5)
+DEBUG: is_valid_move((1, 5) -> (3, 6)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (3, 6) to (3, 8) (3 links remain)
+DEBUG: Bot chose - action: Reposition from: (3, 6) to: (3, 8) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (3, 6) to (3, 8)
+DEBUG: Calling select_piece_bot((3, 6))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(3, 6)
+DEBUG: piece at (3, 6): { "source_id": 6, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((3, 8))
+DEBUG move_selected_piece_to: target=(3, 8), state=2, selected=(3, 6)
+DEBUG: is_valid_move((3, 6) -> (3, 8)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (3, 8) to (3, 6) (2 links remain)
+DEBUG: Bot chose - action: Reposition from: (3, 8) to: (3, 6) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (3, 8) to (3, 6)
+DEBUG: Calling select_piece_bot((3, 8))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(3, 8)
+DEBUG: piece at (3, 8): { "source_id": 6, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((3, 6))
+DEBUG move_selected_piece_to: target=(3, 6), state=2, selected=(3, 8)
+DEBUG: is_valid_move((3, 8) -> (3, 6)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (3, 6) to (3, 8) (1 links remain)
+DEBUG: Bot chose - action: Reposition from: (3, 6) to: (3, 8) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (3, 6) to (3, 8)
+DEBUG: Calling select_piece_bot((3, 6))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(3, 6)
+DEBUG: piece at (3, 6): { "source_id": 6, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((3, 8))
+DEBUG move_selected_piece_to: target=(3, 8), state=2, selected=(3, 6)
+DEBUG: is_valid_move((3, 6) -> (3, 8)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (3, 8) to (3, 6) (0 links remain)
+DEBUG: Bot chose - action: Reposition from: (3, 8) to: (3, 6) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (3, 8) to (3, 6)
+DEBUG: Calling select_piece_bot((3, 8))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(3, 8)
+DEBUG: piece at (3, 8): { "source_id": 6, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((3, 6))
+DEBUG move_selected_piece_to: target=(3, 6), state=2, selected=(3, 8)
+DEBUG: is_valid_move((3, 8) -> (3, 6)) = true
+DEBUG: Move executed
+DEBUG PLAN: board control ours=56 enemy=64
+DEBUG PLAN: player=2 difficulty=3
+DEBUG H0: 5th chain-link from (3, 6) reaches a double piece or higher-level trade (captures 14.0 > 4-link cap 5.0) -> assuming a roll of 5
+DEBUG PLAN: human predicted chain value=14.0 start=(3, 6) links=5 control=76
+DEBUG PLAN: material balance = 3 (ours=56 enemy=53)
+DEBUG H0: 5th chain-link from (3, 6) reaches a double piece or higher-level trade (captures 19.0 > 4-link cap 14.0) -> assuming a roll of 5
+DEBUG EXTRA-HARD: candidate from (10, 5) (value=5.0 mover_value=14.0 score=19.0) rejected for single-dive -- immediate exchange -14.0 not affordable (material balance 3)
+DEBUG PLAN: bot best chain value=5.0 start=(10, 5) links=4 control=68
+DEBUG PLAN: best chain from (10, 5) (value=5.0) is a TRAP -- extra-hard lookahead found the human's best immediate reply takes 5.0 net (immediate exchange -14.0 not affordable, material balance 3) -- treating as nothing safely capturable
+DEBUG PLAN: piece at (10, 5) is LOADED (gain=14.0 at reference roll 6 vs actual roll 4) -- protecting it from filler movement
+DEBUG PLAN: best chain from (10, 5) (value=5.0) is a TRAP -- defending this piece instead of diving forward (position 1.5)
+DEBUG PLAN: nothing safely capturable -- using safe (non-bait) filler move from (10, 4) instead of chain from (10, 5)
+DEBUG PLAN: net = capture 0.0 (ranked 0.0) - risk 9.0 (piece at (10, 4)) = -9.0
+DEBUG PLAN: B1 -- human turn value 14.0 >= bot turn value -9.0 -> checking defense
+DEBUG PLAN: piece at (10, 5) could be reclaimed after h0's chain, but D2 found no useful reposition -- falling through to escape/bait triage
+DEBUG PLAN: piece at (10, 5) left in place (f4) -- defended, and worth more than h0's attacker (acceptable risk); progressing elsewhere instead
+DEBUG FINAL: new plan, 3 links remain [19707ms]
+DEBUG PLAN: continuing -> Reposition (10, 5) to (10, 3) (3 links remain)
+DEBUG: Bot chose - action: Reposition from: (10, 5) to: (10, 3) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (10, 5) to (10, 3)
+DEBUG: Calling select_piece_bot((10, 5))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(10, 5)
+DEBUG: piece at (10, 5): { "source_id": 16, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((10, 3))
+DEBUG move_selected_piece_to: target=(10, 3), state=2, selected=(10, 5)
+DEBUG: is_valid_move((10, 5) -> (10, 3)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (10, 3) to (9, 2) (2 links remain)
+DEBUG: Bot chose - action: Reposition from: (10, 3) to: (9, 2) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (10, 3) to (9, 2)
+DEBUG: Calling select_piece_bot((10, 3))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(10, 3)
+DEBUG: piece at (10, 3): { "source_id": 16, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((9, 2))
+DEBUG move_selected_piece_to: target=(9, 2), state=2, selected=(10, 3)
+DEBUG: is_valid_move((10, 3) -> (9, 2)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (9, 2) to (9, 4) (1 links remain)
+DEBUG: Bot chose - action: Reposition from: (9, 2) to: (9, 4) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (9, 2) to (9, 4)
+DEBUG: Calling select_piece_bot((9, 2))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(9, 2)
+DEBUG: piece at (9, 2): { "source_id": 16, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((9, 4))
+DEBUG move_selected_piece_to: target=(9, 4), state=2, selected=(9, 2)
+DEBUG: is_valid_move((9, 2) -> (9, 4)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (9, 4) to (9, 6) (0 links remain)
+DEBUG: Bot chose - action: Reposition from: (9, 4) to: (9, 6) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (9, 4) to (9, 6)
+DEBUG: Calling select_piece_bot((9, 4))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(9, 4)
+DEBUG: piece at (9, 4): { "source_id": 16, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((9, 6))
+DEBUG move_selected_piece_to: target=(9, 6), state=2, selected=(9, 4)
+DEBUG: is_valid_move((9, 4) -> (9, 6)) = true
+DEBUG: Move executed
+DEBUG PLAN: board control ours=64 enemy=61
+DEBUG PLAN: player=1 difficulty=2
+DEBUG H0: 5th chain-link from (9, 6) reaches a double piece or higher-level trade (captures 19.0 > 4-link cap 14.0) -> assuming a roll of 5
+DEBUG PLAN: human predicted chain value=19.0 start=(9, 6) links=5 control=73
+DEBUG PLAN: material balance = -3 (ours=53 enemy=56)
+DEBUG PLAN: bot best chain value=14.0 start=(3, 6) links=4 control=76
+DEBUG PLAN: net = capture 14.0 (ranked 14.0) - risk 14.0 (piece at (3, 6)) = 0.0
+DEBUG PLAN: B1 -- human turn value 19.0 >= bot turn value 0.0 -> checking defense
+DEBUG PLAN: best chain (start=(3, 6), net=0.0) not worth it -> safer capture from (3, 6) (net=0.0) available as fallback
+DEBUG PLAN: capturing h0's attacker at (9, 6) (chain from (3, 6), net 14.0) reduces the human's best reply from 19.0 to 14.0 (threat reduction 5.0, total 19.0) -- worth more than fallback net 0.0 -> capturing the attacker resolves all of h0's threatened pieces at once
+DEBUG FINAL: new plan, 3 links remain [6099ms]
+DEBUG PLAN: continuing -> Reposition (3, 6) to (4, 5) (3 links remain)
+DEBUG: Bot chose - action: Reposition from: (3, 6) to: (4, 5) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (3, 6) to (4, 5)
+DEBUG: Calling select_piece_bot((3, 6))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(3, 6)
+DEBUG: piece at (3, 6): { "source_id": 6, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((4, 5))
+DEBUG move_selected_piece_to: target=(4, 5), state=2, selected=(3, 6)
+DEBUG: is_valid_move((3, 6) -> (4, 5)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (4, 5) to (6, 6) (2 links remain)
+DEBUG: Bot chose - action: Reposition from: (4, 5) to: (6, 6) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (4, 5) to (6, 6)
+DEBUG: Calling select_piece_bot((4, 5))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(4, 5)
+DEBUG: piece at (4, 5): { "source_id": 6, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((6, 6))
+DEBUG move_selected_piece_to: target=(6, 6), state=2, selected=(4, 5)
+DEBUG: is_valid_move((4, 5) -> (6, 6)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (6, 6) to (7, 7) (1 links remain)
+DEBUG: Bot chose - action: Reposition from: (6, 6) to: (7, 7) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (6, 6) to (7, 7)
+DEBUG: Calling select_piece_bot((6, 6))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(6, 6)
+DEBUG: piece at (6, 6): { "source_id": 6, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((7, 7))
+DEBUG move_selected_piece_to: target=(7, 7), state=2, selected=(6, 6)
+DEBUG: is_valid_move((6, 6) -> (7, 7)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Capture (7, 7) to (9, 6) captured_sid=16 (0 links remain)
+DEBUG: Bot chose - action: Capture from: (7, 7) to: (9, 6) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (7, 7) to (9, 6)
+DEBUG: Calling select_piece_bot((7, 7))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(7, 7)
+DEBUG: piece at (7, 7): { "source_id": 6, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((9, 6))
+DEBUG move_selected_piece_to: target=(9, 6), state=2, selected=(7, 7)
+DEBUG: is_valid_move((7, 7) -> (9, 6)) = true
+DEBUG: Move executed
+DEBUG PLAN: board control ours=55 enemy=76
+DEBUG PLAN: player=2 difficulty=3
+DEBUG PLAN: human predicted chain value=5.0 start=(9, 6) links=4 control=74
+DEBUG PLAN: material balance = -11 (ours=42 enemy=53)
+DEBUG PLAN: extra-hard attacking candidate start=(8, 3) value=17.0 net_value=16.0 score=21.0
+DEBUG PLAN: extra-hard score is non-negative -> committing to chain from (8, 3)
+DEBUG FINAL: new plan, 4 links remain [21989ms]
+DEBUG PLAN: continuing -> Reposition (8, 3) to (9, 4) (4 links remain)
+DEBUG: Bot chose - action: Reposition from: (8, 3) to: (9, 4) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (8, 3) to (9, 4)
+DEBUG: Calling select_piece_bot((8, 3))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(8, 3)
+DEBUG: piece at (8, 3): { "source_id": 15, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((9, 4))
+DEBUG move_selected_piece_to: target=(9, 4), state=2, selected=(8, 3)
+DEBUG: is_valid_move((8, 3) -> (9, 4)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (9, 4) to (9, 5) (3 links remain)
+DEBUG: Bot chose - action: Reposition from: (9, 4) to: (9, 5) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (9, 4) to (9, 5)
+DEBUG: Calling select_piece_bot((9, 4))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(9, 4)
+DEBUG: piece at (9, 4): { "source_id": 15, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((9, 5))
+DEBUG move_selected_piece_to: target=(9, 5), state=2, selected=(9, 4)
+DEBUG: is_valid_move((9, 4) -> (9, 5)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Capture (9, 5) to (9, 6) captured_sid=6 (2 links remain)
+DEBUG: Bot chose - action: Capture from: (9, 5) to: (9, 6) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (9, 5) to (9, 6)
+DEBUG: Calling select_piece_bot((9, 5))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(9, 5)
+DEBUG: piece at (9, 5): { "source_id": 15, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((9, 6))
+DEBUG move_selected_piece_to: target=(9, 6), state=2, selected=(9, 5)
+DEBUG: is_valid_move((9, 5) -> (9, 6)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (9, 6) to (9, 7) (1 links remain)
+DEBUG: Bot chose - action: Reposition from: (9, 6) to: (9, 7) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (9, 6) to (9, 7)
+DEBUG: Calling select_piece_bot((9, 6))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(9, 6)
+DEBUG: piece at (9, 6): { "source_id": 15, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((9, 7))
+DEBUG move_selected_piece_to: target=(9, 7), state=2, selected=(9, 6)
+DEBUG: is_valid_move((9, 6) -> (9, 7)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (9, 7) to (10, 8) (0 links remain)
+DEBUG: Bot chose - action: Reposition from: (9, 7) to: (10, 8) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (9, 7) to (10, 8)
+DEBUG: Calling select_piece_bot((9, 7))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(9, 7)
+DEBUG: piece at (9, 7): { "source_id": 15, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((10, 8))
+DEBUG move_selected_piece_to: target=(10, 8), state=2, selected=(9, 7)
+DEBUG: is_valid_move((9, 7) -> (10, 8)) = true
+DEBUG: Move executed
+DEBUG PLAN: board control ours=60 enemy=55
+DEBUG PLAN: player=1 difficulty=2
+DEBUG PLAN: human predicted chain value=0.0 start=(8, 2) links=4 control=62
+DEBUG PLAN: material balance = -3 (ours=39 enemy=42)
+DEBUG PLAN: bot best chain value=0.0 start=(4, 9) links=3 control=72
+DEBUG PLAN: piece at (3, 1) is LOADED (gain=13.0 at reference roll 6 vs actual roll 3) -- protecting it from filler movement
+DEBUG PLAN: nothing safely capturable -- using safe (non-bait) filler move from (1, 3) instead of chain from (4, 9)
+DEBUG PLAN: net = capture 0.0 (ranked 0.0) - risk 9.0 (piece at (1, 3)) = -9.0
+DEBUG PLAN: B1 -- human turn value 0.0 >= bot turn value -9.0 -> checking defense
+DEBUG PLAN: no acceptable trade and no threatened piece identified -> attacking anyway
+DEBUG FINAL: new plan, 2 links remain [7118ms]
+DEBUG PLAN: continuing -> Reposition (1, 3) to (1, 5) (2 links remain)
+DEBUG: Bot chose - action: Reposition from: (1, 3) to: (1, 5) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (1, 3) to (1, 5)
+DEBUG: Calling select_piece_bot((1, 3))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(1, 3)
+DEBUG: piece at (1, 3): { "source_id": 70, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((1, 5))
+DEBUG move_selected_piece_to: target=(1, 5), state=2, selected=(1, 3)
+DEBUG: is_valid_move((1, 3) -> (1, 5)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (1, 5) to (3, 6) (1 links remain)
+DEBUG: Bot chose - action: Reposition from: (1, 5) to: (3, 6) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (1, 5) to (3, 6)
+DEBUG: Calling select_piece_bot((1, 5))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(1, 5)
+DEBUG: piece at (1, 5): { "source_id": 70, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((3, 6))
+DEBUG move_selected_piece_to: target=(3, 6), state=2, selected=(1, 5)
+DEBUG: is_valid_move((1, 5) -> (3, 6)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (3, 6) to (4, 7) (0 links remain)
+DEBUG: Bot chose - action: Reposition from: (3, 6) to: (4, 7) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (3, 6) to (4, 7)
+DEBUG: Calling select_piece_bot((3, 6))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(3, 6)
+DEBUG: piece at (3, 6): { "source_id": 70, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((4, 7))
+DEBUG move_selected_piece_to: target=(4, 7), state=2, selected=(3, 6)
+DEBUG: is_valid_move((3, 6) -> (4, 7)) = true
+DEBUG: Move executed
+DEBUG PLAN: board control ours=55 enemy=61
+DEBUG PLAN: player=2 difficulty=3
+DEBUG PLAN: human predicted chain value=0.0 start=(3, 1) links=4 control=75
+DEBUG PLAN: material balance = 3 (ours=42 enemy=39)
+DEBUG PLAN: bot best chain value=0.0 start=(8, 2) links=4 control=62
+DEBUG PLAN: piece at (8, 4) is LOADED (gain=14.0 at reference roll 6 vs actual roll 4) -- protecting it from filler movement
+DEBUG PLAN: nothing safely capturable -- using safe (non-bait) filler move from (10, 4) instead of chain from (8, 2)
+DEBUG PLAN: net = capture 0.0 (ranked 0.0) - risk 9.0 (piece at (10, 4)) = -9.0
+DEBUG PLAN: B1 -- human turn value 0.0 >= bot turn value -9.0 -> checking defense
+DEBUG PLAN: no acceptable trade and no threatened piece identified -> attacking anyway
+DEBUG FINAL: new plan, 3 links remain [5956ms]
+DEBUG PLAN: continuing -> Reposition (10, 4) to (9, 5) (3 links remain)
+DEBUG: Bot chose - action: Reposition from: (10, 4) to: (9, 5) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (10, 4) to (9, 5)
+DEBUG: Calling select_piece_bot((10, 4))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(10, 4)
+DEBUG: piece at (10, 4): { "source_id": 17, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((9, 5))
+DEBUG move_selected_piece_to: target=(9, 5), state=2, selected=(10, 4)
+DEBUG: is_valid_move((10, 4) -> (9, 5)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (9, 5) to (9, 3) (2 links remain)
+DEBUG: Bot chose - action: Reposition from: (9, 5) to: (9, 3) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (9, 5) to (9, 3)
+DEBUG: Calling select_piece_bot((9, 5))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(9, 5)
+DEBUG: piece at (9, 5): { "source_id": 17, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((9, 3))
+DEBUG move_selected_piece_to: target=(9, 3), state=2, selected=(9, 5)
+DEBUG: is_valid_move((9, 5) -> (9, 3)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (9, 3) to (9, 4) (1 links remain)
+DEBUG: Bot chose - action: Reposition from: (9, 3) to: (9, 4) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (9, 3) to (9, 4)
+DEBUG: Calling select_piece_bot((9, 3))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(9, 3)
+DEBUG: piece at (9, 3): { "source_id": 17, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((9, 4))
+DEBUG move_selected_piece_to: target=(9, 4), state=2, selected=(9, 3)
+DEBUG: is_valid_move((9, 3) -> (9, 4)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (9, 4) to (9, 2) (0 links remain)
+DEBUG: Bot chose - action: Reposition from: (9, 4) to: (9, 2) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (9, 4) to (9, 2)
+DEBUG: Calling select_piece_bot((9, 4))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(9, 4)
+DEBUG: piece at (9, 4): { "source_id": 17, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((9, 2))
+DEBUG move_selected_piece_to: target=(9, 2), state=2, selected=(9, 4)
+DEBUG: is_valid_move((9, 4) -> (9, 2)) = true
+DEBUG: Move executed
+DEBUG PLAN: board control ours=61 enemy=55
+DEBUG PLAN: player=1 difficulty=2
+DEBUG H0: 5th chain-link from (8, 4) reaches a double piece or higher-level trade (captures 9.0 > 4-link cap 0.0) -> assuming a roll of 5
+DEBUG PLAN: human predicted chain value=9.0 start=(8, 4) links=5 control=74
+DEBUG PLAN: material balance = -3 (ours=39 enemy=42)
+DEBUG PLAN: bot best chain value=7.0 start=(4, 9) links=5 control=71
+DEBUG PLAN: net = capture 5.0 (ranked 7.0) - risk 5.0 (piece at (4, 9)) = 0.0
+DEBUG PLAN: B1 -- human turn value 9.0 >= bot turn value 0.0 -> checking defense
+DEBUG PLAN: best chain (start=(4, 9), net=0.0) not worth it -> safer capture from (4, 9) (net=0.0) available as fallback
+DEBUG PLAN: piece at (4, 7) could be reclaimed after h0's chain, but D2 found no useful reposition -- falling through to escape/bait triage
+DEBUG PLAN: piece at (4, 7) left in place (f4) -- defended, and worth more than h0's attacker (acceptable risk); progressing elsewhere instead
+DEBUG FINAL: new plan, 4 links remain [5498ms]
+DEBUG PLAN: continuing -> Reposition (3, 10) to (3, 9) (4 links remain)
+DEBUG: Bot chose - action: Reposition from: (3, 10) to: (3, 9) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (3, 10) to (3, 9)
+DEBUG: Calling select_piece_bot((3, 10))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(3, 10)
+DEBUG: piece at (3, 10): { "source_id": 4, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((3, 9))
+DEBUG move_selected_piece_to: target=(3, 9), state=2, selected=(3, 10)
+DEBUG: is_valid_move((3, 10) -> (3, 9)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (3, 9) to (2, 9) (3 links remain)
+DEBUG: Bot chose - action: Reposition from: (3, 9) to: (2, 9) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (3, 9) to (2, 9)
+DEBUG: Calling select_piece_bot((3, 9))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(3, 9)
+DEBUG: piece at (3, 9): { "source_id": 4, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((2, 9))
+DEBUG move_selected_piece_to: target=(2, 9), state=2, selected=(3, 9)
+DEBUG: is_valid_move((3, 9) -> (2, 9)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (2, 9) to (3, 9) (2 links remain)
+DEBUG: Bot chose - action: Reposition from: (2, 9) to: (3, 9) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (2, 9) to (3, 9)
+DEBUG: Calling select_piece_bot((2, 9))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(2, 9)
+DEBUG: piece at (2, 9): { "source_id": 4, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((3, 9))
+DEBUG move_selected_piece_to: target=(3, 9), state=2, selected=(2, 9)
+DEBUG: is_valid_move((2, 9) -> (3, 9)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (3, 9) to (2, 9) (1 links remain)
+DEBUG: Bot chose - action: Reposition from: (3, 9) to: (2, 9) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (3, 9) to (2, 9)
+DEBUG: Calling select_piece_bot((3, 9))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(3, 9)
+DEBUG: piece at (3, 9): { "source_id": 4, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((2, 9))
+DEBUG move_selected_piece_to: target=(2, 9), state=2, selected=(3, 9)
+DEBUG: is_valid_move((3, 9) -> (2, 9)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (2, 9) to (3, 9) (0 links remain)
+DEBUG: Bot chose - action: Reposition from: (2, 9) to: (3, 9) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (2, 9) to (3, 9)
+DEBUG: Calling select_piece_bot((2, 9))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(2, 9)
+DEBUG: piece at (2, 9): { "source_id": 4, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((3, 9))
+DEBUG move_selected_piece_to: target=(3, 9), state=2, selected=(2, 9)
+DEBUG: is_valid_move((2, 9) -> (3, 9)) = true
+DEBUG: Move executed
+DEBUG PLAN: board control ours=55 enemy=60
+DEBUG PLAN: player=2 difficulty=3
+DEBUG PLAN: human predicted chain value=0.0 start=(3, 1) links=4 control=74
+DEBUG PLAN: material balance = 3 (ours=42 enemy=39)
+DEBUG PLAN: extra-hard attacking candidate start=(8, 4) value=9.0 net_value=9.0 score=19.0
+DEBUG PLAN: extra-hard score is non-negative -> committing to chain from (8, 4)
+DEBUG FINAL: new plan, 4 links remain [7414ms]
+DEBUG PLAN: continuing -> Reposition (8, 4) to (7, 5) (4 links remain)
+DEBUG: Bot chose - action: Reposition from: (8, 4) to: (7, 5) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (8, 4) to (7, 5)
+DEBUG: Calling select_piece_bot((8, 4))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(8, 4)
+DEBUG: piece at (8, 4): { "source_id": 12, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((7, 5))
+DEBUG move_selected_piece_to: target=(7, 5), state=2, selected=(8, 4)
+DEBUG: is_valid_move((8, 4) -> (7, 5)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (7, 5) to (7, 6) (3 links remain)
+DEBUG: Bot chose - action: Reposition from: (7, 5) to: (7, 6) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (7, 5) to (7, 6)
+DEBUG: Calling select_piece_bot((7, 5))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(7, 5)
+DEBUG: piece at (7, 5): { "source_id": 12, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((7, 6))
+DEBUG move_selected_piece_to: target=(7, 6), state=2, selected=(7, 5)
+DEBUG: is_valid_move((7, 5) -> (7, 6)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (7, 6) to (6, 7) (2 links remain)
+DEBUG: Bot chose - action: Reposition from: (7, 6) to: (6, 7) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (7, 6) to (6, 7)
+DEBUG: Calling select_piece_bot((7, 6))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(7, 6)
+DEBUG: piece at (7, 6): { "source_id": 12, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((6, 7))
+DEBUG move_selected_piece_to: target=(6, 7), state=2, selected=(7, 6)
+DEBUG: is_valid_move((7, 6) -> (6, 7)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (6, 7) to (5, 7) (1 links remain)
+DEBUG: Bot chose - action: Reposition from: (6, 7) to: (5, 7) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (6, 7) to (5, 7)
+DEBUG: Calling select_piece_bot((6, 7))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(6, 7)
+DEBUG: piece at (6, 7): { "source_id": 12, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((5, 7))
+DEBUG move_selected_piece_to: target=(5, 7), state=2, selected=(6, 7)
+DEBUG: is_valid_move((6, 7) -> (5, 7)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Capture (5, 7) to (4, 7) captured_sid=70 (0 links remain)
+DEBUG: Bot chose - action: Capture from: (5, 7) to: (4, 7) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (5, 7) to (4, 7)
+DEBUG: Calling select_piece_bot((5, 7))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(5, 7)
+DEBUG: piece at (5, 7): { "source_id": 12, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((4, 7))
+DEBUG move_selected_piece_to: target=(4, 7), state=2, selected=(5, 7)
+DEBUG: is_valid_move((5, 7) -> (4, 7)) = true
+DEBUG: Move executed
+DEBUG PLAN: board control ours=59 enemy=74
+DEBUG PLAN: player=1 difficulty=2
+DEBUG PLAN: human predicted chain value=15.0 start=(4, 7) links=4 control=73
+DEBUG PLAN: material balance = -12 (ours=30 enemy=42)
+DEBUG PLAN: immediate capture available from (4, 8) -> (4, 7) (value=8.0 net=2.0) -> taking it now
+DEBUG FINAL: new plan, 0 links remain [1525ms]
+DEBUG PLAN: continuing -> Capture (4, 8) to (4, 7) captured_sid=12 (0 links remain)
+DEBUG: Bot chose - action: Capture from: (4, 8) to: (4, 7) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (4, 8) to (4, 7)
+DEBUG: Calling select_piece_bot((4, 8))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(4, 8)
+DEBUG: piece at (4, 8): { "source_id": 5, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((4, 7))
+DEBUG move_selected_piece_to: target=(4, 7), state=2, selected=(4, 8)
+DEBUG: is_valid_move((4, 8) -> (4, 7)) = true
+DEBUG: Move executed
+DEBUG PLAN: board control ours=60 enemy=50
+DEBUG PLAN: player=1 difficulty=2
+DEBUG PLAN: human predicted chain value=0.0 start=(8, 2) links=4 control=54
+DEBUG PLAN: material balance = -7 (ours=30 enemy=37)
+DEBUG PLAN: bot best chain value=0.0 start=(4, 9) links=2 control=69
+DEBUG PLAN: piece at (3, 1) is LOADED (gain=14.0 at reference roll 6 vs actual roll 2) -- protecting it from filler movement
+DEBUG PLAN: nothing safely capturable -- using safe (non-bait) filler move from (3, 9) instead of chain from (4, 9)
+DEBUG PLAN: net = capture 0.0 (ranked 0.0) - risk 5.0 (piece at (3, 9)) = -5.0
+DEBUG PLAN: B1 -- human turn value 0.0 >= bot turn value -5.0 -> checking defense
+DEBUG PLAN: no acceptable trade and no threatened piece identified -> attacking anyway
+DEBUG FINAL: new plan, 1 links remain [3653ms]
+DEBUG PLAN: continuing -> Reposition (3, 9) to (3, 8) (1 links remain)
+DEBUG: Bot chose - action: Reposition from: (3, 9) to: (3, 8) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (3, 9) to (3, 8)
+DEBUG: Calling select_piece_bot((3, 9))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(3, 9)
+DEBUG: piece at (3, 9): { "source_id": 4, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((3, 8))
+DEBUG move_selected_piece_to: target=(3, 8), state=2, selected=(3, 9)
+DEBUG: is_valid_move((3, 9) -> (3, 8)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (3, 8) to (4, 8) (0 links remain)
+DEBUG: Bot chose - action: Reposition from: (3, 8) to: (4, 8) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (3, 8) to (4, 8)
+DEBUG: Calling select_piece_bot((3, 8))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(3, 8)
+DEBUG: piece at (3, 8): { "source_id": 4, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((4, 8))
+DEBUG move_selected_piece_to: target=(4, 8), state=2, selected=(3, 8)
+DEBUG: is_valid_move((3, 8) -> (4, 8)) = true
+DEBUG: Move executed
+DEBUG PLAN: board control ours=50 enemy=60
+DEBUG PLAN: player=2 difficulty=3
+DEBUG PLAN: human predicted chain value=0.0 start=(3, 1) links=4 control=75
+DEBUG PLAN: material balance = 7 (ours=37 enemy=30)
+DEBUG PLAN: bot best chain value=0.0 start=(8, 2) links=4 control=54
+DEBUG PLAN: piece at (8, 2) is LOADED (gain=10.0 at reference roll 6 vs actual roll 4) -- protecting it from filler movement
+DEBUG PLAN: nothing safely capturable -- using safe (non-bait) filler move from (8, 1) instead of chain from (8, 2)
+DEBUG PLAN: net = capture 0.0 (ranked 0.0) - risk 5.0 (piece at (8, 1)) = -5.0
+DEBUG PLAN: B1 -- human turn value 0.0 >= bot turn value -5.0 -> checking defense
+DEBUG PLAN: net-negative but material cushion reaches A1 (balance 7 + net -5.0 >= human 0.0) -> trading anyway from (8, 1)
+DEBUG FINAL: new plan, 3 links remain [3474ms]
+DEBUG PLAN: continuing -> Reposition (8, 1) to (7, 1) (3 links remain)
+DEBUG: Bot chose - action: Reposition from: (8, 1) to: (7, 1) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (8, 1) to (7, 1)
+DEBUG: Calling select_piece_bot((8, 1))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(8, 1)
+DEBUG: piece at (8, 1): { "source_id": 13, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((7, 1))
+DEBUG move_selected_piece_to: target=(7, 1), state=2, selected=(8, 1)
+DEBUG: is_valid_move((8, 1) -> (7, 1)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (7, 1) to (8, 1) (2 links remain)
+DEBUG: Bot chose - action: Reposition from: (7, 1) to: (8, 1) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (7, 1) to (8, 1)
+DEBUG: Calling select_piece_bot((7, 1))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(7, 1)
+DEBUG: piece at (7, 1): { "source_id": 13, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((8, 1))
+DEBUG move_selected_piece_to: target=(8, 1), state=2, selected=(7, 1)
+DEBUG: is_valid_move((7, 1) -> (8, 1)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (8, 1) to (7, 1) (1 links remain)
+DEBUG: Bot chose - action: Reposition from: (8, 1) to: (7, 1) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (8, 1) to (7, 1)
+DEBUG: Calling select_piece_bot((8, 1))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(8, 1)
+DEBUG: piece at (8, 1): { "source_id": 13, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((7, 1))
+DEBUG move_selected_piece_to: target=(7, 1), state=2, selected=(8, 1)
+DEBUG: is_valid_move((8, 1) -> (7, 1)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (7, 1) to (8, 1) (0 links remain)
+DEBUG: Bot chose - action: Reposition from: (7, 1) to: (8, 1) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (7, 1) to (8, 1)
+DEBUG: Calling select_piece_bot((7, 1))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(7, 1)
+DEBUG: piece at (7, 1): { "source_id": 13, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((8, 1))
+DEBUG move_selected_piece_to: target=(8, 1), state=2, selected=(7, 1)
+DEBUG: is_valid_move((7, 1) -> (8, 1)) = true
+DEBUG: Move executed
+DEBUG PLAN: board control ours=60 enemy=50
+DEBUG PLAN: player=1 difficulty=2
+DEBUG PLAN: human predicted chain value=0.0 start=(8, 2) links=4 control=54
+DEBUG PLAN: material balance = -7 (ours=30 enemy=37)
+DEBUG PLAN: bot best chain value=7.0 start=(4, 8) links=5 control=76
+DEBUG PLAN: net = capture 5.0 (ranked 7.0) - risk 5.0 (piece at (4, 8)) = 0.0
+DEBUG PLAN: B1 -- human turn value 0.0 >= bot turn value 0.0 -> checking defense
+DEBUG PLAN: best chain (start=(4, 8), net=0.0) not worth it -> safer capture from (4, 9) (net=0.0) available as fallback
+DEBUG PLAN: no acceptable trade and no threatened piece identified -> attacking anyway
+DEBUG FINAL: new plan, 4 links remain [2065ms]
+DEBUG PLAN: continuing -> Reposition (4, 9) to (5, 9) (4 links remain)
+DEBUG: Bot chose - action: Reposition from: (4, 9) to: (5, 9) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (4, 9) to (5, 9)
+DEBUG: Calling select_piece_bot((4, 9))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(4, 9)
+DEBUG: piece at (4, 9): { "source_id": 2, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((5, 9))
+DEBUG move_selected_piece_to: target=(5, 9), state=2, selected=(4, 9)
+DEBUG: is_valid_move((4, 9) -> (5, 9)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (5, 9) to (6, 9) (3 links remain)
+DEBUG: Bot chose - action: Reposition from: (5, 9) to: (6, 9) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (5, 9) to (6, 9)
+DEBUG: Calling select_piece_bot((5, 9))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(5, 9)
+DEBUG: piece at (5, 9): { "source_id": 2, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((6, 9))
+DEBUG move_selected_piece_to: target=(6, 9), state=2, selected=(5, 9)
+DEBUG: is_valid_move((5, 9) -> (6, 9)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (6, 9) to (7, 9) (2 links remain)
+DEBUG: Bot chose - action: Reposition from: (6, 9) to: (7, 9) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (6, 9) to (7, 9)
+DEBUG: Calling select_piece_bot((6, 9))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(6, 9)
+DEBUG: piece at (6, 9): { "source_id": 2, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((7, 9))
+DEBUG move_selected_piece_to: target=(7, 9), state=2, selected=(6, 9)
+DEBUG: is_valid_move((6, 9) -> (7, 9)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (7, 9) to (8, 9) (1 links remain)
+DEBUG: Bot chose - action: Reposition from: (7, 9) to: (8, 9) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (7, 9) to (8, 9)
+DEBUG: Calling select_piece_bot((7, 9))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(7, 9)
+DEBUG: piece at (7, 9): { "source_id": 2, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((8, 9))
+DEBUG move_selected_piece_to: target=(8, 9), state=2, selected=(7, 9)
+DEBUG: is_valid_move((7, 9) -> (8, 9)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Capture (8, 9) to (9, 8) captured_sid=15 (0 links remain)
+DEBUG: Bot chose - action: Capture from: (8, 9) to: (9, 8) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (8, 9) to (9, 8)
+DEBUG: Calling select_piece_bot((8, 9))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(8, 9)
+DEBUG: piece at (8, 9): { "source_id": 2, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((9, 8))
+DEBUG move_selected_piece_to: target=(9, 8), state=2, selected=(8, 9)
+DEBUG: is_valid_move((8, 9) -> (9, 8)) = true
+DEBUG: Move executed
+DEBUG PLAN: board control ours=46 enemy=71
+DEBUG PLAN: player=2 difficulty=3
+DEBUG PLAN: human predicted chain value=5.0 start=(9, 8) links=4 control=65
+DEBUG PLAN: material balance = 2 (ours=32 enemy=30)
+DEBUG PLAN: extra-hard attacking candidate start=(10, 8) value=8.0 net_value=7.0 score=12.0
+DEBUG PLAN: extra-hard score is non-negative -> committing to chain from (10, 8)
+DEBUG FINAL: new plan, 3 links remain [2680ms]
+DEBUG PLAN: continuing -> Reposition (10, 8) to (9, 9) (3 links remain)
+DEBUG: Bot chose - action: Reposition from: (10, 8) to: (9, 9) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (10, 8) to (9, 9)
+DEBUG: Calling select_piece_bot((10, 8))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(10, 8)
+DEBUG: piece at (10, 8): { "source_id": 15, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((9, 9))
+DEBUG move_selected_piece_to: target=(9, 9), state=2, selected=(10, 8)
+DEBUG: is_valid_move((10, 8) -> (9, 9)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Capture (9, 9) to (9, 8) captured_sid=2 (2 links remain)
+DEBUG: Bot chose - action: Capture from: (9, 9) to: (9, 8) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (9, 9) to (9, 8)
+DEBUG: Calling select_piece_bot((9, 9))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(9, 9)
+DEBUG: piece at (9, 9): { "source_id": 15, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((9, 8))
+DEBUG move_selected_piece_to: target=(9, 8), state=2, selected=(9, 9)
+DEBUG: is_valid_move((9, 9) -> (9, 8)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (9, 8) to (9, 9) (1 links remain)
+DEBUG: Bot chose - action: Reposition from: (9, 8) to: (9, 9) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (9, 8) to (9, 9)
+DEBUG: Calling select_piece_bot((9, 8))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(9, 8)
+DEBUG: piece at (9, 8): { "source_id": 15, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((9, 9))
+DEBUG move_selected_piece_to: target=(9, 9), state=2, selected=(9, 8)
+DEBUG: is_valid_move((9, 8) -> (9, 9)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (9, 9) to (10, 10) (0 links remain)
+DEBUG: Bot chose - action: Reposition from: (9, 9) to: (10, 10) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (9, 9) to (10, 10)
+DEBUG: Calling select_piece_bot((9, 9))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(9, 9)
+DEBUG: piece at (9, 9): { "source_id": 15, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((10, 10))
+DEBUG move_selected_piece_to: target=(10, 10), state=2, selected=(9, 9)
+DEBUG: is_valid_move((9, 9) -> (10, 10)) = true
+DEBUG: Move executed
+DEBUG PLAN: board control ours=55 enemy=41
+DEBUG PLAN: player=1 difficulty=2
+DEBUG PLAN: human predicted chain value=0.0 start=(8, 2) links=4 control=45
+DEBUG PLAN: material balance = -7 (ours=25 enemy=32)
+DEBUG PLAN: bot best chain value=0.0 start=(3, 1) links=3 control=67
+DEBUG PLAN: piece at (3, 1) is LOADED (gain=14.0 at reference roll 6 vs actual roll 3) -- protecting it from filler movement
+DEBUG PLAN: nothing safely capturable -- using safe (non-bait) filler move from (3, 0) instead of chain from (3, 1)
+DEBUG PLAN: net = capture 0.0 (ranked 0.0) - risk 5.0 (piece at (3, 0)) = -5.0
+DEBUG PLAN: B1 -- human turn value 0.0 >= bot turn value -5.0 -> checking defense
+DEBUG PLAN: no acceptable trade and no threatened piece identified -> attacking anyway
+DEBUG FINAL: new plan, 2 links remain [2624ms]
+DEBUG PLAN: continuing -> Reposition (3, 0) to (2, 0) (2 links remain)
+DEBUG: Bot chose - action: Reposition from: (3, 0) to: (2, 0) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (3, 0) to (2, 0)
+DEBUG: Calling select_piece_bot((3, 0))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(3, 0)
+DEBUG: piece at (3, 0): { "source_id": 3, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((2, 0))
+DEBUG move_selected_piece_to: target=(2, 0), state=2, selected=(3, 0)
+DEBUG: is_valid_move((3, 0) -> (2, 0)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (2, 0) to (3, 0) (1 links remain)
+DEBUG: Bot chose - action: Reposition from: (2, 0) to: (3, 0) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (2, 0) to (3, 0)
+DEBUG: Calling select_piece_bot((2, 0))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(2, 0)
+DEBUG: piece at (2, 0): { "source_id": 3, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((3, 0))
+DEBUG move_selected_piece_to: target=(3, 0), state=2, selected=(2, 0)
+DEBUG: is_valid_move((2, 0) -> (3, 0)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (3, 0) to (4, 0) (0 links remain)
+DEBUG: Bot chose - action: Reposition from: (3, 0) to: (4, 0) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (3, 0) to (4, 0)
+DEBUG: Calling select_piece_bot((3, 0))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(3, 0)
+DEBUG: piece at (3, 0): { "source_id": 3, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((4, 0))
+DEBUG move_selected_piece_to: target=(4, 0), state=2, selected=(3, 0)
+DEBUG: is_valid_move((3, 0) -> (4, 0)) = true
+DEBUG: Move executed
+DEBUG PLAN: board control ours=41 enemy=56
+DEBUG PLAN: player=2 difficulty=3
+DEBUG PLAN: human predicted chain value=0.0 start=(3, 1) links=4 control=71
+DEBUG PLAN: material balance = 7 (ours=32 enemy=25)
+DEBUG PLAN: bot best chain value=0.0 start=(8, 2) links=3 control=46
+DEBUG PLAN: piece at (8, 2) is LOADED (gain=10.0 at reference roll 6 vs actual roll 3) -- protecting it from filler movement
+DEBUG PLAN: nothing safely capturable -- using safe (non-bait) filler move from (9, 2) instead of chain from (8, 2)
+DEBUG PLAN: net = capture 0.0 (ranked 0.0) - risk 9.0 (piece at (9, 2)) = -9.0
+DEBUG PLAN: B1 -- human turn value 0.0 >= bot turn value -9.0 -> checking defense
+DEBUG PLAN: no acceptable trade and no threatened piece identified -> attacking anyway
+DEBUG FINAL: new plan, 2 links remain [2236ms]
+DEBUG PLAN: continuing -> Reposition (9, 2) to (10, 1) (2 links remain)
+DEBUG: Bot chose - action: Reposition from: (9, 2) to: (10, 1) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (9, 2) to (10, 1)
+DEBUG: Calling select_piece_bot((9, 2))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(9, 2)
+DEBUG: piece at (9, 2): { "source_id": 17, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((10, 1))
+DEBUG move_selected_piece_to: target=(10, 1), state=2, selected=(9, 2)
+DEBUG: is_valid_move((9, 2) -> (10, 1)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (10, 1) to (10, 2) (1 links remain)
+DEBUG: Bot chose - action: Reposition from: (10, 1) to: (10, 2) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (10, 1) to (10, 2)
+DEBUG: Calling select_piece_bot((10, 1))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(10, 1)
+DEBUG: piece at (10, 1): { "source_id": 17, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((10, 2))
+DEBUG move_selected_piece_to: target=(10, 2), state=2, selected=(10, 1)
+DEBUG: is_valid_move((10, 1) -> (10, 2)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (10, 2) to (10, 0) (0 links remain)
+DEBUG: Bot chose - action: Reposition from: (10, 2) to: (10, 0) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (10, 2) to (10, 0)
+DEBUG: Calling select_piece_bot((10, 2))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(10, 2)
+DEBUG: piece at (10, 2): { "source_id": 17, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((10, 0))
+DEBUG move_selected_piece_to: target=(10, 0), state=2, selected=(10, 2)
+DEBUG: is_valid_move((10, 2) -> (10, 0)) = true
+DEBUG: Move executed
+DEBUG PLAN: board control ours=56 enemy=39
+DEBUG PLAN: player=1 difficulty=2
+DEBUG PLAN: human predicted chain value=0.0 start=(8, 1) links=4 control=46
+DEBUG PLAN: material balance = -7 (ours=25 enemy=32)
+DEBUG PLAN: bot best chain value=0.0 start=(3, 1) links=4 control=71
+DEBUG PLAN: piece at (3, 1) is LOADED (gain=13.0 at reference roll 6 vs actual roll 4) -- protecting it from filler movement
+DEBUG PLAN: nothing safely capturable -- using safe (non-bait) filler move from (3, 4) instead of chain from (3, 1)
+DEBUG PLAN: net = capture 0.0 (ranked 0.0) - risk 5.0 (piece at (3, 4)) = -5.0
+DEBUG PLAN: B1 -- human turn value 0.0 >= bot turn value -5.0 -> checking defense
+DEBUG PLAN: no acceptable trade and no threatened piece identified -> attacking anyway
+DEBUG FINAL: new plan, 3 links remain [2995ms]
+DEBUG PLAN: continuing -> Reposition (3, 4) to (3, 3) (3 links remain)
+DEBUG: Bot chose - action: Reposition from: (3, 4) to: (3, 3) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (3, 4) to (3, 3)
+DEBUG: Calling select_piece_bot((3, 4))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(3, 4)
+DEBUG: piece at (3, 4): { "source_id": 50, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((3, 3))
+DEBUG move_selected_piece_to: target=(3, 3), state=2, selected=(3, 4)
+DEBUG: is_valid_move((3, 4) -> (3, 3)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (3, 3) to (4, 4) (2 links remain)
+DEBUG: Bot chose - action: Reposition from: (3, 3) to: (4, 4) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (3, 3) to (4, 4)
+DEBUG: Calling select_piece_bot((3, 3))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(3, 3)
+DEBUG: piece at (3, 3): { "source_id": 50, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((4, 4))
+DEBUG move_selected_piece_to: target=(4, 4), state=2, selected=(3, 3)
+DEBUG: is_valid_move((3, 3) -> (4, 4)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (4, 4) to (4, 5) (1 links remain)
+DEBUG: Bot chose - action: Reposition from: (4, 4) to: (4, 5) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (4, 4) to (4, 5)
+DEBUG: Calling select_piece_bot((4, 4))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(4, 4)
+DEBUG: piece at (4, 4): { "source_id": 50, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((4, 5))
+DEBUG move_selected_piece_to: target=(4, 5), state=2, selected=(4, 4)
+DEBUG: is_valid_move((4, 4) -> (4, 5)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (4, 5) to (5, 6) (0 links remain)
+DEBUG: Bot chose - action: Reposition from: (4, 5) to: (5, 6) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (4, 5) to (5, 6)
+DEBUG: Calling select_piece_bot((4, 5))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(4, 5)
+DEBUG: piece at (4, 5): { "source_id": 50, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((5, 6))
+DEBUG move_selected_piece_to: target=(5, 6), state=2, selected=(4, 5)
+DEBUG: is_valid_move((4, 5) -> (5, 6)) = true
+DEBUG: Move executed
+DEBUG PLAN: board control ours=39 enemy=56
+DEBUG PLAN: player=2 difficulty=3
+DEBUG PLAN: human predicted chain value=0.0 start=(3, 1) links=4 control=71
+DEBUG PLAN: material balance = 7 (ours=32 enemy=25)
+DEBUG PLAN: bot best chain value=0.0 start=(8, 1) links=4 control=46
+DEBUG PLAN: piece at (8, 2) is LOADED (gain=10.0 at reference roll 6 vs actual roll 4) -- protecting it from filler movement
+DEBUG PLAN: nothing safely capturable -- using safe (non-bait) filler move from (10, 0) instead of chain from (8, 1)
+DEBUG PLAN: net = capture 0.0 (ranked 0.0) - risk 9.0 (piece at (10, 0)) = -9.0
+DEBUG PLAN: B1 -- human turn value 0.0 >= bot turn value -9.0 -> checking defense
+DEBUG PLAN: no acceptable trade and no threatened piece identified -> attacking anyway
+DEBUG FINAL: new plan, 3 links remain [3033ms]
+DEBUG PLAN: continuing -> Rotate (10, 0) by 240 deg (3 links remain)
+DEBUG: Bot chose - action: Rotate from: (10, 0) to: <null> score: 0.0 assessment: N/A
+DEBUG PLAN: board control ours=39 enemy=56
+DEBUG PLAN: player=2 difficulty=3
+DEBUG PLAN: human predicted chain value=0.0 start=(3, 1) links=4 control=71
+DEBUG PLAN: material balance = 7 (ours=32 enemy=25)
+DEBUG PLAN: bot best chain value=0.0 start=(8, 1) links=3 control=44
+DEBUG PLAN: piece at (8, 2) is LOADED (gain=10.0 at reference roll 6 vs actual roll 3) -- protecting it from filler movement
+DEBUG PLAN: nothing safely capturable -- using safe (non-bait) filler move from (9, 1) instead of chain from (8, 1)
+DEBUG PLAN: net = capture 0.0 (ranked 0.0) - risk 8.0 (piece at (9, 1)) = -8.0
+DEBUG PLAN: B1 -- human turn value 0.0 >= bot turn value -8.0 -> checking defense
+DEBUG PLAN: no acceptable trade and no threatened piece identified -> attacking anyway
+DEBUG FINAL: new plan, 2 links remain [2842ms]
+DEBUG PLAN: continuing -> Reposition (9, 1) to (9, 2) (2 links remain)
+DEBUG: Bot chose - action: Reposition from: (9, 1) to: (9, 2) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (9, 1) to (9, 2)
+DEBUG: Calling select_piece_bot((9, 1))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(9, 1)
+DEBUG: piece at (9, 1): { "source_id": 22, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((9, 2))
+DEBUG move_selected_piece_to: target=(9, 2), state=2, selected=(9, 1)
+DEBUG: is_valid_move((9, 1) -> (9, 2)) = true
+DEBUG: Move executed
+MusicPlayer: playing res://assets/HexAudio/HexMusic/RetroandSynthwave-OdysseybyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+DEBUG PLAN: continuing -> Reposition (9, 2) to (9, 0) (1 links remain)
+DEBUG: Bot chose - action: Reposition from: (9, 2) to: (9, 0) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (9, 2) to (9, 0)
+DEBUG: Calling select_piece_bot((9, 2))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(9, 2)
+DEBUG: piece at (9, 2): { "source_id": 22, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((9, 0))
+DEBUG move_selected_piece_to: target=(9, 0), state=2, selected=(9, 2)
+DEBUG: is_valid_move((9, 2) -> (9, 0)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Rotate (9, 0) by 60 deg (0 links remain)
+DEBUG: Bot chose - action: Rotate from: (9, 0) to: <null> score: 0.0 assessment: N/A
+DEBUG PLAN: board control ours=56 enemy=40
+DEBUG PLAN: player=1 difficulty=2
+DEBUG PLAN: human predicted chain value=0.0 start=(8, 1) links=4 control=45
+DEBUG PLAN: material balance = -7 (ours=25 enemy=32)
+DEBUG PLAN: bot best chain value=9.0 start=(4, 0) links=5 control=70
+DEBUG PLAN: net = capture 8.0 (ranked 9.0) - risk 5.0 (piece at (4, 0)) = 3.0
+DEBUG PLAN: A1 -- bot turn value 3.0 > human turn value 0.0 -> attacking with chain from (4, 0)
+DEBUG PLAN: X1 -- mover (5.0) cheaper than target (9, 0) (8.0) -> X2 capturing despite defender (9.0)
+DEBUG FINAL: new plan, 4 links remain [1886ms]
+DEBUG PLAN: continuing -> Reposition (4, 0) to (5, 0) (4 links remain)
+DEBUG: Bot chose - action: Reposition from: (4, 0) to: (5, 0) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (4, 0) to (5, 0)
+DEBUG: Calling select_piece_bot((4, 0))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(4, 0)
+DEBUG: piece at (4, 0): { "source_id": 3, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((5, 0))
+DEBUG move_selected_piece_to: target=(5, 0), state=2, selected=(4, 0)
+DEBUG: is_valid_move((4, 0) -> (5, 0)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (5, 0) to (6, 0) (3 links remain)
+DEBUG: Bot chose - action: Reposition from: (5, 0) to: (6, 0) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (5, 0) to (6, 0)
+DEBUG: Calling select_piece_bot((5, 0))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(5, 0)
+DEBUG: piece at (5, 0): { "source_id": 3, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((6, 0))
+DEBUG move_selected_piece_to: target=(6, 0), state=2, selected=(5, 0)
+DEBUG: is_valid_move((5, 0) -> (6, 0)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (6, 0) to (7, 0) (2 links remain)
+DEBUG: Bot chose - action: Reposition from: (6, 0) to: (7, 0) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (6, 0) to (7, 0)
+DEBUG: Calling select_piece_bot((6, 0))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(6, 0)
+DEBUG: piece at (6, 0): { "source_id": 3, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((7, 0))
+DEBUG move_selected_piece_to: target=(7, 0), state=2, selected=(6, 0)
+DEBUG: is_valid_move((6, 0) -> (7, 0)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (7, 0) to (8, 0) (1 links remain)
+DEBUG: Bot chose - action: Reposition from: (7, 0) to: (8, 0) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (7, 0) to (8, 0)
+DEBUG: Calling select_piece_bot((7, 0))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(7, 0)
+DEBUG: piece at (7, 0): { "source_id": 3, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((8, 0))
+DEBUG move_selected_piece_to: target=(8, 0), state=2, selected=(7, 0)
+DEBUG: is_valid_move((7, 0) -> (8, 0)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Capture (8, 0) to (9, 0) captured_sid=22 (0 links remain)
+DEBUG: Bot chose - action: Capture from: (8, 0) to: (9, 0) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (8, 0) to (9, 0)
+DEBUG: Calling select_piece_bot((8, 0))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(8, 0)
+DEBUG: piece at (8, 0): { "source_id": 3, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((9, 0))
+DEBUG move_selected_piece_to: target=(9, 0), state=2, selected=(8, 0)
+DEBUG: is_valid_move((8, 0) -> (9, 0)) = true
+DEBUG: Move executed
+DEBUG PLAN: board control ours=39 enemy=70
+DEBUG PLAN: player=2 difficulty=3
+DEBUG PLAN: human predicted chain value=19.0 start=(9, 0) links=4 control=69
+DEBUG PLAN: material balance = -1 (ours=24 enemy=25)
+DEBUG PLAN: extra-hard attacking candidate start=(8, 2) value=8.0 net_value=7.0 score=14.0
+DEBUG PLAN: extra-hard score is non-negative -> committing to chain from (8, 2)
+DEBUG FINAL: new plan, 4 links remain [4771ms]
+DEBUG PLAN: continuing -> Reposition (8, 2) to (7, 1) (4 links remain)
+DEBUG: Bot chose - action: Reposition from: (8, 2) to: (7, 1) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (8, 2) to (7, 1)
+DEBUG: Calling select_piece_bot((8, 2))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(8, 2)
+DEBUG: piece at (8, 2): { "source_id": 19, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((7, 1))
+DEBUG move_selected_piece_to: target=(7, 1), state=2, selected=(8, 2)
+DEBUG: is_valid_move((8, 2) -> (7, 1)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (7, 1) to (7, 0) (3 links remain)
+DEBUG: Bot chose - action: Reposition from: (7, 1) to: (7, 0) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (7, 1) to (7, 0)
+DEBUG: Calling select_piece_bot((7, 1))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(7, 1)
+DEBUG: piece at (7, 1): { "source_id": 19, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((7, 0))
+DEBUG move_selected_piece_to: target=(7, 0), state=2, selected=(7, 1)
+DEBUG: is_valid_move((7, 1) -> (7, 0)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (7, 0) to (8, 0) (2 links remain)
+DEBUG: Bot chose - action: Reposition from: (7, 0) to: (8, 0) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (7, 0) to (8, 0)
+DEBUG: Calling select_piece_bot((7, 0))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(7, 0)
+DEBUG: piece at (7, 0): { "source_id": 19, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((8, 0))
+DEBUG move_selected_piece_to: target=(8, 0), state=2, selected=(7, 0)
+DEBUG: is_valid_move((7, 0) -> (8, 0)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Capture (8, 0) to (9, 0) captured_sid=3 (1 links remain)
+DEBUG: Bot chose - action: Capture from: (8, 0) to: (9, 0) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (8, 0) to (9, 0)
+DEBUG: Calling select_piece_bot((8, 0))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(8, 0)
+DEBUG: piece at (8, 0): { "source_id": 19, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((9, 0))
+DEBUG move_selected_piece_to: target=(9, 0), state=2, selected=(8, 0)
+DEBUG: is_valid_move((8, 0) -> (9, 0)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (9, 0) to (8, 0) (0 links remain)
+DEBUG: Bot chose - action: Reposition from: (9, 0) to: (8, 0) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (9, 0) to (8, 0)
+DEBUG: Calling select_piece_bot((9, 0))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(9, 0)
+DEBUG: piece at (9, 0): { "source_id": 19, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((8, 0))
+DEBUG move_selected_piece_to: target=(8, 0), state=2, selected=(9, 0)
+DEBUG: is_valid_move((9, 0) -> (8, 0)) = true
+DEBUG: Move executed
+DEBUG PLAN: board control ours=54 enemy=38
+DEBUG PLAN: player=1 difficulty=2
+DEBUG PLAN: human predicted chain value=0.0 start=(8, 0) links=4 control=44
+DEBUG PLAN: material balance = -4 (ours=20 enemy=24)
+DEBUG PLAN: bot best chain value=0.0 start=(4, 8) links=4 control=63
+DEBUG PLAN: piece at (3, 1) is LOADED (gain=10.0 at reference roll 6 vs actual roll 4) -- protecting it from filler movement
+DEBUG PLAN: nothing safely capturable -- using safe (non-bait) filler move from (4, 8) instead of chain from (4, 8)
+DEBUG PLAN: net = capture 0.0 (ranked 0.0) - risk 5.0 (piece at (4, 8)) = -5.0
+DEBUG PLAN: B1 -- human turn value 0.0 >= bot turn value -5.0 -> checking defense
+DEBUG PLAN: no acceptable trade and no threatened piece identified -> attacking anyway
+DEBUG FINAL: new plan, 3 links remain [2649ms]
+DEBUG PLAN: continuing -> Reposition (4, 8) to (3, 8) (3 links remain)
+DEBUG: Bot chose - action: Reposition from: (4, 8) to: (3, 8) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (4, 8) to (3, 8)
+DEBUG: Calling select_piece_bot((4, 8))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(4, 8)
+DEBUG: piece at (4, 8): { "source_id": 4, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((3, 8))
+DEBUG move_selected_piece_to: target=(3, 8), state=2, selected=(4, 8)
+DEBUG: is_valid_move((4, 8) -> (3, 8)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (3, 8) to (4, 8) (2 links remain)
+DEBUG: Bot chose - action: Reposition from: (3, 8) to: (4, 8) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (3, 8) to (4, 8)
+DEBUG: Calling select_piece_bot((3, 8))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(3, 8)
+DEBUG: piece at (3, 8): { "source_id": 4, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((4, 8))
+DEBUG move_selected_piece_to: target=(4, 8), state=2, selected=(3, 8)
+DEBUG: is_valid_move((3, 8) -> (4, 8)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (4, 8) to (5, 8) (1 links remain)
+DEBUG: Bot chose - action: Reposition from: (4, 8) to: (5, 8) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (4, 8) to (5, 8)
+DEBUG: Calling select_piece_bot((4, 8))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(4, 8)
+DEBUG: piece at (4, 8): { "source_id": 4, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((5, 8))
+DEBUG move_selected_piece_to: target=(5, 8), state=2, selected=(4, 8)
+DEBUG: is_valid_move((4, 8) -> (5, 8)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (5, 8) to (6, 8) (0 links remain)
+DEBUG: Bot chose - action: Reposition from: (5, 8) to: (6, 8) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (5, 8) to (6, 8)
+DEBUG: Calling select_piece_bot((5, 8))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(5, 8)
+DEBUG: piece at (5, 8): { "source_id": 4, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((6, 8))
+DEBUG move_selected_piece_to: target=(6, 8), state=2, selected=(5, 8)
+DEBUG: is_valid_move((5, 8) -> (6, 8)) = true
+DEBUG: Move executed
+DEBUG PLAN: board control ours=38 enemy=56
+DEBUG PLAN: player=2 difficulty=3
+DEBUG PLAN: human predicted chain value=0.0 start=(6, 8) links=4 control=67
+DEBUG PLAN: material balance = 4 (ours=24 enemy=20)
+DEBUG PLAN: bot best chain value=0.0 start=(8, 0) links=4 control=44
+DEBUG PLAN: piece at (8, 1) is LOADED (gain=5.0 at reference roll 6 vs actual roll 4) -- protecting it from filler movement
+DEBUG PLAN: nothing safely capturable -- using safe (non-bait) filler move from (10, 0) instead of chain from (8, 0)
+DEBUG PLAN: net = capture 0.0 (ranked 0.0) - risk 9.0 (piece at (10, 0)) = -9.0
+DEBUG PLAN: B1 -- human turn value 0.0 >= bot turn value -9.0 -> checking defense
+DEBUG PLAN: no acceptable trade and no threatened piece identified -> attacking anyway
+DEBUG FINAL: new plan, 3 links remain [3520ms]
+DEBUG PLAN: continuing -> Rotate (10, 0) by 60 deg (3 links remain)
+DEBUG: Bot chose - action: Rotate from: (10, 0) to: <null> score: 0.0 assessment: N/A
+DEBUG PLAN: board control ours=37 enemy=56
+DEBUG PLAN: player=2 difficulty=3
+DEBUG PLAN: human predicted chain value=0.0 start=(6, 8) links=4 control=67
+DEBUG PLAN: material balance = 4 (ours=24 enemy=20)
+DEBUG PLAN: bot best chain value=0.0 start=(8, 0) links=3 control=45
+DEBUG PLAN: piece at (8, 1) is LOADED (gain=5.0 at reference roll 6 vs actual roll 3) -- protecting it from filler movement
+DEBUG PLAN: nothing safely capturable -- using safe (non-bait) filler move from (10, 0) instead of chain from (8, 0)
+DEBUG PLAN: net = capture 0.0 (ranked 0.0) - risk 9.0 (piece at (10, 0)) = -9.0
+DEBUG PLAN: B1 -- human turn value 0.0 >= bot turn value -9.0 -> checking defense
+DEBUG PLAN: no acceptable trade and no threatened piece identified -> attacking anyway
+DEBUG FINAL: new plan, 2 links remain [3603ms]
+DEBUG PLAN: continuing -> Reposition (10, 0) to (10, 1) (2 links remain)
+DEBUG: Bot chose - action: Reposition from: (10, 0) to: (10, 1) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (10, 0) to (10, 1)
+DEBUG: Calling select_piece_bot((10, 0))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(10, 0)
+DEBUG: piece at (10, 0): { "source_id": 17, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((10, 1))
+DEBUG move_selected_piece_to: target=(10, 1), state=2, selected=(10, 0)
+DEBUG: is_valid_move((10, 0) -> (10, 1)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (10, 1) to (9, 0) (1 links remain)
+DEBUG: Bot chose - action: Reposition from: (10, 1) to: (9, 0) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (10, 1) to (9, 0)
+DEBUG: Calling select_piece_bot((10, 1))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(10, 1)
+DEBUG: piece at (10, 1): { "source_id": 17, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((9, 0))
+DEBUG move_selected_piece_to: target=(9, 0), state=2, selected=(10, 1)
+DEBUG: is_valid_move((10, 1) -> (9, 0)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (9, 0) to (9, 1) (0 links remain)
+DEBUG: Bot chose - action: Reposition from: (9, 0) to: (9, 1) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (9, 0) to (9, 1)
+DEBUG: Calling select_piece_bot((9, 0))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(9, 0)
+DEBUG: piece at (9, 0): { "source_id": 17, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((9, 1))
+DEBUG move_selected_piece_to: target=(9, 1), state=2, selected=(9, 0)
+DEBUG: is_valid_move((9, 0) -> (9, 1)) = true
+DEBUG: Move executed
+DEBUG PLAN: board control ours=56 enemy=37
+DEBUG PLAN: player=1 difficulty=2
+DEBUG PLAN: human predicted chain value=0.0 start=(8, 0) links=4 control=44
+DEBUG PLAN: material balance = -4 (ours=20 enemy=24)
+DEBUG PLAN: bot best chain value=0.0 start=(6, 8) links=3 control=66
+DEBUG PLAN: piece at (3, 1) is LOADED (gain=14.0 at reference roll 6 vs actual roll 3) -- protecting it from filler movement
+DEBUG PLAN: nothing safely capturable -- using safe (non-bait) filler move from (4, 7) instead of chain from (6, 8)
+DEBUG PLAN: net = capture 0.0 (ranked 0.0) - risk 5.0 (piece at (4, 7)) = -5.0
+DEBUG PLAN: B1 -- human turn value 0.0 >= bot turn value -5.0 -> checking defense
+DEBUG PLAN: no acceptable trade and no threatened piece identified -> attacking anyway
+DEBUG FINAL: new plan, 2 links remain [2443ms]
+DEBUG PLAN: continuing -> Reposition (4, 7) to (4, 6) (2 links remain)
+DEBUG: Bot chose - action: Reposition from: (4, 7) to: (4, 6) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (4, 7) to (4, 6)
+DEBUG: Calling select_piece_bot((4, 7))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(4, 7)
+DEBUG: piece at (4, 7): { "source_id": 5, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((4, 6))
+DEBUG move_selected_piece_to: target=(4, 6), state=2, selected=(4, 7)
+DEBUG: is_valid_move((4, 7) -> (4, 6)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (4, 6) to (4, 7) (1 links remain)
+DEBUG: Bot chose - action: Reposition from: (4, 6) to: (4, 7) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (4, 6) to (4, 7)
+DEBUG: Calling select_piece_bot((4, 6))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(4, 6)
+DEBUG: piece at (4, 6): { "source_id": 5, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((4, 7))
+DEBUG move_selected_piece_to: target=(4, 7), state=2, selected=(4, 6)
+DEBUG: is_valid_move((4, 6) -> (4, 7)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (4, 7) to (5, 8) (0 links remain)
+DEBUG: Bot chose - action: Reposition from: (4, 7) to: (5, 8) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (4, 7) to (5, 8)
+DEBUG: Calling select_piece_bot((4, 7))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(4, 7)
+DEBUG: piece at (4, 7): { "source_id": 5, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((5, 8))
+DEBUG move_selected_piece_to: target=(5, 8), state=2, selected=(4, 7)
+DEBUG: is_valid_move((4, 7) -> (5, 8)) = true
+DEBUG: Move executed
+DEBUG PLAN: board control ours=37 enemy=53
+DEBUG PLAN: player=2 difficulty=3
+DEBUG PLAN: human predicted chain value=0.0 start=(6, 8) links=4 control=63
+DEBUG PLAN: material balance = 4 (ours=24 enemy=20)
+DEBUG PLAN: bot best chain value=0.0 start=(8, 0) links=4 control=44
+DEBUG PLAN: piece at (8, 1) is LOADED (gain=5.0 at reference roll 6 vs actual roll 4) -- protecting it from filler movement
+DEBUG PLAN: nothing safely capturable -- using safe (non-bait) filler move from (8, 0) instead of chain from (8, 0)
+DEBUG PLAN: net = capture 0.0 (ranked 0.0) - risk 5.0 (piece at (8, 0)) = -5.0
+DEBUG PLAN: B1 -- human turn value 0.0 >= bot turn value -5.0 -> checking defense
+DEBUG PLAN: no acceptable trade and no threatened piece identified -> attacking anyway
+DEBUG FINAL: new plan, 3 links remain [2739ms]
+DEBUG PLAN: continuing -> Reposition (8, 0) to (7, 1) (3 links remain)
+DEBUG: Bot chose - action: Reposition from: (8, 0) to: (7, 1) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (8, 0) to (7, 1)
+DEBUG: Calling select_piece_bot((8, 0))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(8, 0)
+DEBUG: piece at (8, 0): { "source_id": 19, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((7, 1))
+DEBUG move_selected_piece_to: target=(7, 1), state=2, selected=(8, 0)
+DEBUG: is_valid_move((8, 0) -> (7, 1)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (7, 1) to (7, 0) (2 links remain)
+DEBUG: Bot chose - action: Reposition from: (7, 1) to: (7, 0) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (7, 1) to (7, 0)
+DEBUG: Calling select_piece_bot((7, 1))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(7, 1)
+DEBUG: piece at (7, 1): { "source_id": 19, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((7, 0))
+DEBUG move_selected_piece_to: target=(7, 0), state=2, selected=(7, 1)
+DEBUG: is_valid_move((7, 1) -> (7, 0)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (7, 0) to (6, 1) (1 links remain)
+DEBUG: Bot chose - action: Reposition from: (7, 0) to: (6, 1) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (7, 0) to (6, 1)
+DEBUG: Calling select_piece_bot((7, 0))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(7, 0)
+DEBUG: piece at (7, 0): { "source_id": 19, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((6, 1))
+DEBUG move_selected_piece_to: target=(6, 1), state=2, selected=(7, 0)
+DEBUG: is_valid_move((7, 0) -> (6, 1)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (6, 1) to (6, 0) (0 links remain)
+DEBUG: Bot chose - action: Reposition from: (6, 1) to: (6, 0) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (6, 1) to (6, 0)
+DEBUG: Calling select_piece_bot((6, 1))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(6, 1)
+DEBUG: piece at (6, 1): { "source_id": 19, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((6, 0))
+DEBUG move_selected_piece_to: target=(6, 0), state=2, selected=(6, 1)
+DEBUG: is_valid_move((6, 1) -> (6, 0)) = true
+DEBUG: Move executed
+DEBUG PLAN: board control ours=53 enemy=44
+DEBUG PLAN: player=1 difficulty=2
+DEBUG PLAN: human predicted chain value=5.0 start=(6, 0) links=4 control=48
+DEBUG PLAN: material balance = -4 (ours=20 enemy=24)
+DEBUG PLAN: bot best chain value=7.0 start=(3, 1) links=4 control=54
+DEBUG PLAN: net = capture 5.0 (ranked 7.0) - risk 5.0 (piece at (3, 1)) = 0.0
+DEBUG PLAN: B1 -- human turn value 5.0 >= bot turn value 0.0 -> checking defense
+DEBUG PLAN: best chain (start=(3, 1), net=0.0) not worth it -> safer capture from (3, 1) (net=0.0) available as fallback
+DEBUG PLAN: capturing h0's attacker at (6, 0) (chain from (3, 1), net 5.0) reduces the human's best reply from 5.0 to 5.0 (threat reduction 0.0, total 5.0) -- worth more than fallback net 0.0 -> capturing the attacker resolves all of h0's threatened pieces at once
+DEBUG FINAL: new plan, 3 links remain [2118ms]
+DEBUG PLAN: continuing -> Reposition (3, 1) to (4, 1) (3 links remain)
+DEBUG: Bot chose - action: Reposition from: (3, 1) to: (4, 1) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (3, 1) to (4, 1)
+DEBUG: Calling select_piece_bot((3, 1))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(3, 1)
+DEBUG: piece at (3, 1): { "source_id": 20, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((4, 1))
+DEBUG move_selected_piece_to: target=(4, 1), state=2, selected=(3, 1)
+DEBUG: is_valid_move((3, 1) -> (4, 1)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (4, 1) to (5, 1) (2 links remain)
+DEBUG: Bot chose - action: Reposition from: (4, 1) to: (5, 1) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (4, 1) to (5, 1)
+DEBUG: Calling select_piece_bot((4, 1))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(4, 1)
+DEBUG: piece at (4, 1): { "source_id": 20, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((5, 1))
+DEBUG move_selected_piece_to: target=(5, 1), state=2, selected=(4, 1)
+DEBUG: is_valid_move((4, 1) -> (5, 1)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Capture (5, 1) to (6, 0) captured_sid=19 (1 links remain)
+DEBUG: Bot chose - action: Capture from: (5, 1) to: (6, 0) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (5, 1) to (6, 0)
+DEBUG: Calling select_piece_bot((5, 1))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(5, 1)
+DEBUG: piece at (5, 1): { "source_id": 20, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((6, 0))
+DEBUG move_selected_piece_to: target=(6, 0), state=2, selected=(5, 1)
+DEBUG: is_valid_move((5, 1) -> (6, 0)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (6, 0) to (7, 0) (0 links remain)
+DEBUG: Bot chose - action: Reposition from: (6, 0) to: (7, 0) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (6, 0) to (7, 0)
+DEBUG: Calling select_piece_bot((6, 0))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(6, 0)
+DEBUG: piece at (6, 0): { "source_id": 20, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((7, 0))
+DEBUG move_selected_piece_to: target=(7, 0), state=2, selected=(6, 0)
+DEBUG: is_valid_move((6, 0) -> (7, 0)) = true
+DEBUG: Move executed
+DEBUG PLAN: board control ours=35 enemy=54
+DEBUG PLAN: player=2 difficulty=3
+DEBUG PLAN: human predicted chain value=14.0 start=(7, 0) links=4 control=47
+DEBUG PLAN: material balance = -1 (ours=19 enemy=20)
+DEBUG PLAN: extra-hard attacking candidate start=(9, 1) value=8.0 net_value=7.0 score=7.0
+DEBUG PLAN: extra-hard score is non-negative -> committing to chain from (9, 1)
+DEBUG FINAL: new plan, 2 links remain [1533ms]
+DEBUG PLAN: continuing -> Reposition (9, 1) to (8, 0) (2 links remain)
+DEBUG: Bot chose - action: Reposition from: (9, 1) to: (8, 0) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (9, 1) to (8, 0)
+DEBUG: Calling select_piece_bot((9, 1))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(9, 1)
+DEBUG: piece at (9, 1): { "source_id": 17, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((8, 0))
+DEBUG move_selected_piece_to: target=(8, 0), state=2, selected=(9, 1)
+DEBUG: is_valid_move((9, 1) -> (8, 0)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Rotate (8, 0) by 120 deg (1 links remain)
+DEBUG: Bot chose - action: Rotate from: (8, 0) to: <null> score: 0.0 assessment: N/A
+DEBUG PLAN: board control ours=38 enemy=54
+DEBUG PLAN: player=2 difficulty=3
+DEBUG PLAN: human predicted chain value=14.0 start=(7, 0) links=4 control=47
+DEBUG PLAN: material balance = -1 (ours=19 enemy=20)
+DEBUG PLAN: extra-hard attacking candidate start=(8, 0) value=8.0 net_value=7.0 score=7.0
+DEBUG PLAN: extra-hard score is non-negative -> committing to chain from (8, 0)
+DEBUG FINAL: new plan, 0 links remain [1552ms]
+DEBUG PLAN: continuing -> Capture (8, 0) to (7, 0) captured_sid=20 (0 links remain)
+DEBUG: Bot chose - action: Capture from: (8, 0) to: (7, 0) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (8, 0) to (7, 0)
+DEBUG: Calling select_piece_bot((8, 0))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(8, 0)
+DEBUG: piece at (8, 0): { "source_id": 17, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((7, 0))
+DEBUG move_selected_piece_to: target=(7, 0), state=2, selected=(8, 0)
+DEBUG: is_valid_move((8, 0) -> (7, 0)) = true
+DEBUG: Move executed
+DEBUG PLAN: board control ours=37 enemy=41
+DEBUG PLAN: player=1 difficulty=2
+DEBUG PLAN: human predicted chain value=0.0 start=(8, 1) links=4 control=45
+DEBUG PLAN: material balance = -4 (ours=15 enemy=19)
+DEBUG PLAN: bot best chain value=0.0 start=(6, 8) links=4 control=47
+DEBUG PLAN: piece at (5, 6) is LOADED (gain=9.0 at reference roll 6 vs actual roll 4) -- protecting it from filler movement
+DEBUG PLAN: nothing safely capturable -- using safe (non-bait) filler move from (5, 8) instead of chain from (6, 8)
+DEBUG PLAN: net = capture 0.0 (ranked 0.0) - risk 5.0 (piece at (5, 8)) = -5.0
+DEBUG PLAN: B1 -- human turn value 0.0 >= bot turn value -5.0 -> checking defense
+DEBUG PLAN: no acceptable trade and no threatened piece identified -> attacking anyway
+DEBUG FINAL: new plan, 3 links remain [1213ms]
+DEBUG PLAN: continuing -> Reposition (5, 8) to (5, 9) (3 links remain)
+DEBUG: Bot chose - action: Reposition from: (5, 8) to: (5, 9) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (5, 8) to (5, 9)
+DEBUG: Calling select_piece_bot((5, 8))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(5, 8)
+DEBUG: piece at (5, 8): { "source_id": 5, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((5, 9))
+DEBUG move_selected_piece_to: target=(5, 9), state=2, selected=(5, 8)
+DEBUG: is_valid_move((5, 8) -> (5, 9)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (5, 9) to (6, 10) (2 links remain)
+DEBUG: Bot chose - action: Reposition from: (5, 9) to: (6, 10) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (5, 9) to (6, 10)
+DEBUG: Calling select_piece_bot((5, 9))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(5, 9)
+DEBUG: piece at (5, 9): { "source_id": 5, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((6, 10))
+DEBUG move_selected_piece_to: target=(6, 10), state=2, selected=(5, 9)
+DEBUG: is_valid_move((5, 9) -> (6, 10)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (6, 10) to (5, 9) (1 links remain)
+DEBUG: Bot chose - action: Reposition from: (6, 10) to: (5, 9) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (6, 10) to (5, 9)
+DEBUG: Calling select_piece_bot((6, 10))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(6, 10)
+DEBUG: piece at (6, 10): { "source_id": 5, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((5, 9))
+DEBUG move_selected_piece_to: target=(5, 9), state=2, selected=(6, 10)
+DEBUG: is_valid_move((6, 10) -> (5, 9)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (5, 9) to (6, 10) (0 links remain)
+DEBUG: Bot chose - action: Reposition from: (5, 9) to: (6, 10) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (5, 9) to (6, 10)
+DEBUG: Calling select_piece_bot((5, 9))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(5, 9)
+DEBUG: piece at (5, 9): { "source_id": 5, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((6, 10))
+DEBUG move_selected_piece_to: target=(6, 10), state=2, selected=(5, 9)
+DEBUG: is_valid_move((5, 9) -> (6, 10)) = true
+DEBUG: Move executed
+DEBUG PLAN: board control ours=41 enemy=40
+DEBUG PLAN: player=2 difficulty=3
+DEBUG PLAN: human predicted chain value=0.0 start=(6, 8) links=4 control=50
+DEBUG PLAN: material balance = 4 (ours=19 enemy=15)
+DEBUG PLAN: extra-hard attacking candidate start=(10, 10) value=7.0 net_value=5.0 score=12.0
+DEBUG PLAN: extra-hard score is non-negative -> committing to chain from (10, 10)
+DEBUG FINAL: new plan, 4 links remain [935ms]
+DEBUG PLAN: continuing -> Rotate (10, 10) by 60 deg (4 links remain)
+DEBUG: Bot chose - action: Rotate from: (10, 10) to: <null> score: 0.0 assessment: N/A
+DEBUG PLAN: board control ours=39 enemy=40
+DEBUG PLAN: player=2 difficulty=3
+DEBUG PLAN: human predicted chain value=0.0 start=(6, 8) links=4 control=50
+DEBUG PLAN: material balance = 4 (ours=19 enemy=15)
+DEBUG PLAN: extra-hard attacking candidate start=(10, 10) value=7.0 net_value=5.0 score=5.0
+DEBUG PLAN: extra-hard score is non-negative -> committing to chain from (10, 10)
+DEBUG FINAL: new plan, 3 links remain [884ms]
+DEBUG PLAN: continuing -> Reposition (10, 10) to (9, 10) (3 links remain)
+DEBUG: Bot chose - action: Reposition from: (10, 10) to: (9, 10) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (10, 10) to (9, 10)
+DEBUG: Calling select_piece_bot((10, 10))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(10, 10)
+DEBUG: piece at (10, 10): { "source_id": 15, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((9, 10))
+DEBUG move_selected_piece_to: target=(9, 10), state=2, selected=(10, 10)
+DEBUG: is_valid_move((10, 10) -> (9, 10)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (9, 10) to (8, 10) (2 links remain)
+DEBUG: Bot chose - action: Reposition from: (9, 10) to: (8, 10) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (9, 10) to (8, 10)
+DEBUG: Calling select_piece_bot((9, 10))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(9, 10)
+DEBUG: piece at (9, 10): { "source_id": 15, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((8, 10))
+DEBUG move_selected_piece_to: target=(8, 10), state=2, selected=(9, 10)
+DEBUG: is_valid_move((9, 10) -> (8, 10)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (8, 10) to (7, 10) (1 links remain)
+DEBUG: Bot chose - action: Reposition from: (8, 10) to: (7, 10) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (8, 10) to (7, 10)
+DEBUG: Calling select_piece_bot((8, 10))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(8, 10)
+DEBUG: piece at (8, 10): { "source_id": 15, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((7, 10))
+DEBUG move_selected_piece_to: target=(7, 10), state=2, selected=(8, 10)
+DEBUG: is_valid_move((8, 10) -> (7, 10)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Capture (7, 10) to (6, 10) captured_sid=5 (0 links remain)
+DEBUG: Bot chose - action: Capture from: (7, 10) to: (6, 10) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (7, 10) to (6, 10)
+DEBUG: Calling select_piece_bot((7, 10))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(7, 10)
+DEBUG: piece at (7, 10): { "source_id": 15, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((6, 10))
+DEBUG move_selected_piece_to: target=(6, 10), state=2, selected=(7, 10)
+DEBUG: is_valid_move((7, 10) -> (6, 10)) = true
+DEBUG: Move executed
+DEBUG PLAN: board control ours=34 enemy=47
+DEBUG PLAN: player=1 difficulty=2
+DEBUG PLAN: human predicted chain value=5.0 start=(6, 10) links=4 control=51
+DEBUG PLAN: material balance = -9 (ours=10 enemy=19)
+DEBUG PLAN: bot best chain value=8.0 start=(5, 6) links=5 control=29
+DEBUG PLAN: net = capture 7.0 (ranked 8.0) - risk 5.0 (piece at (5, 6)) = 2.0
+DEBUG PLAN: B1 -- human turn value 5.0 >= bot turn value 2.0 -> checking defense
+DEBUG PLAN: best chain (start=(5, 6), net=2.0) not worth it -> safer capture from (5, 6) (net=2.0) available as fallback
+DEBUG PLAN: fallback from (5, 6) lands safely at end of its chain -> raising fallback_net from 2.0 to 7.0
+DEBUG PLAN: capturing h0's attacker at (6, 10) (chain from (5, 6), net 7.0) reduces the human's best reply from 5.0 to 0.0 (threat reduction 5.0, total 12.0) -- worth more than fallback net 7.0 -> capturing the attacker resolves all of h0's threatened pieces at once
+DEBUG FINAL: new plan, 4 links remain [549ms]
+DEBUG PLAN: continuing -> Reposition (5, 6) to (5, 7) (4 links remain)
+DEBUG: Bot chose - action: Reposition from: (5, 6) to: (5, 7) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (5, 6) to (5, 7)
+DEBUG: Calling select_piece_bot((5, 6))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(5, 6)
+DEBUG: piece at (5, 6): { "source_id": 50, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((5, 7))
+DEBUG move_selected_piece_to: target=(5, 7), state=2, selected=(5, 6)
+DEBUG: is_valid_move((5, 6) -> (5, 7)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (5, 7) to (5, 8) (3 links remain)
+DEBUG: Bot chose - action: Reposition from: (5, 7) to: (5, 8) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (5, 7) to (5, 8)
+DEBUG: Calling select_piece_bot((5, 7))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(5, 7)
+DEBUG: piece at (5, 7): { "source_id": 50, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((5, 8))
+DEBUG move_selected_piece_to: target=(5, 8), state=2, selected=(5, 7)
+DEBUG: is_valid_move((5, 7) -> (5, 8)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (5, 8) to (5, 9) (2 links remain)
+DEBUG: Bot chose - action: Reposition from: (5, 8) to: (5, 9) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (5, 8) to (5, 9)
+DEBUG: Calling select_piece_bot((5, 8))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(5, 8)
+DEBUG: piece at (5, 8): { "source_id": 50, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((5, 9))
+DEBUG move_selected_piece_to: target=(5, 9), state=2, selected=(5, 8)
+DEBUG: is_valid_move((5, 8) -> (5, 9)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Capture (5, 9) to (6, 10) captured_sid=15 (1 links remain)
+DEBUG: Bot chose - action: Capture from: (5, 9) to: (6, 10) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (5, 9) to (6, 10)
+DEBUG: Calling select_piece_bot((5, 9))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(5, 9)
+DEBUG: piece at (5, 9): { "source_id": 50, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((6, 10))
+DEBUG move_selected_piece_to: target=(6, 10), state=2, selected=(5, 9)
+DEBUG: is_valid_move((5, 9) -> (6, 10)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (6, 10) to (5, 9) (0 links remain)
+DEBUG: Bot chose - action: Reposition from: (6, 10) to: (5, 9) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (6, 10) to (5, 9)
+DEBUG: Calling select_piece_bot((6, 10))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(6, 10)
+DEBUG: piece at (6, 10): { "source_id": 50, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((5, 9))
+DEBUG move_selected_piece_to: target=(5, 9), state=2, selected=(6, 10)
+DEBUG: is_valid_move((6, 10) -> (5, 9)) = true
+DEBUG: Move executed
+DEBUG PLAN: board control ours=30 enemy=29
+DEBUG PLAN: player=2 difficulty=3
+DEBUG PLAN: human predicted chain value=0.0 start=(6, 8) links=4 control=36
+DEBUG PLAN: material balance = 4 (ours=14 enemy=10)
+DEBUG PLAN: bot best chain value=0.0 start=(8, 1) links=4 control=34
+DEBUG PLAN: piece at (7, 0) is LOADED (gain=5.0 at reference roll 6 vs actual roll 4) -- protecting it from filler movement
+DEBUG PLAN: nothing safely capturable -- using safe (non-bait) filler move from (8, 1) instead of chain from (8, 1)
+DEBUG PLAN: net = capture 0.0 (ranked 0.0) - risk 5.0 (piece at (8, 1)) = -5.0
+DEBUG PLAN: B1 -- human turn value 0.0 >= bot turn value -5.0 -> checking defense
+DEBUG PLAN: no acceptable trade and no threatened piece identified -> attacking anyway
+DEBUG FINAL: new plan, 3 links remain [420ms]
+DEBUG PLAN: continuing -> Reposition (8, 1) to (9, 2) (3 links remain)
+DEBUG: Bot chose - action: Reposition from: (8, 1) to: (9, 2) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (8, 1) to (9, 2)
+DEBUG: Calling select_piece_bot((8, 1))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(8, 1)
+DEBUG: piece at (8, 1): { "source_id": 13, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((9, 2))
+DEBUG move_selected_piece_to: target=(9, 2), state=2, selected=(8, 1)
+DEBUG: is_valid_move((8, 1) -> (9, 2)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (9, 2) to (10, 2) (2 links remain)
+DEBUG: Bot chose - action: Reposition from: (9, 2) to: (10, 2) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (9, 2) to (10, 2)
+DEBUG: Calling select_piece_bot((9, 2))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(9, 2)
+DEBUG: piece at (9, 2): { "source_id": 13, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((10, 2))
+DEBUG move_selected_piece_to: target=(10, 2), state=2, selected=(9, 2)
+DEBUG: is_valid_move((9, 2) -> (10, 2)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (10, 2) to (10, 3) (1 links remain)
+DEBUG: Bot chose - action: Reposition from: (10, 2) to: (10, 3) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (10, 2) to (10, 3)
+DEBUG: Calling select_piece_bot((10, 2))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(10, 2)
+DEBUG: piece at (10, 2): { "source_id": 13, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((10, 3))
+DEBUG move_selected_piece_to: target=(10, 3), state=2, selected=(10, 2)
+DEBUG: is_valid_move((10, 2) -> (10, 3)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (10, 3) to (10, 4) (0 links remain)
+DEBUG: Bot chose - action: Reposition from: (10, 3) to: (10, 4) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (10, 3) to (10, 4)
+DEBUG: Calling select_piece_bot((10, 3))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(10, 3)
+DEBUG: piece at (10, 3): { "source_id": 13, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((10, 4))
+DEBUG move_selected_piece_to: target=(10, 4), state=2, selected=(10, 3)
+DEBUG: is_valid_move((10, 3) -> (10, 4)) = true
+DEBUG: Move executed
+DEBUG PLAN: board control ours=29 enemy=36
+DEBUG PLAN: player=1 difficulty=2
+DEBUG PLAN: human predicted chain value=0.0 start=(10, 4) links=4 control=37
+DEBUG PLAN: material balance = -4 (ours=10 enemy=14)
+DEBUG PLAN: bot best chain value=0.0 start=(6, 8) links=3 control=34
+DEBUG PLAN: piece at (6, 8) is LOADED (gain=5.0 at reference roll 6 vs actual roll 3) -- protecting it from filler movement
+DEBUG PLAN: nothing safely capturable -- using safe (non-bait) filler move from (5, 9) instead of chain from (6, 8)
+DEBUG PLAN: net = capture 0.0 (ranked 0.0) - risk 5.0 (piece at (5, 9)) = -5.0
+DEBUG PLAN: B1 -- human turn value 0.0 >= bot turn value -5.0 -> checking defense
+DEBUG PLAN: no acceptable trade and no threatened piece identified -> attacking anyway
+DEBUG FINAL: new plan, 2 links remain [531ms]
+DEBUG PLAN: continuing -> Reposition (5, 9) to (6, 10) (2 links remain)
+DEBUG: Bot chose - action: Reposition from: (5, 9) to: (6, 10) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (5, 9) to (6, 10)
+DEBUG: Calling select_piece_bot((5, 9))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(5, 9)
+DEBUG: piece at (5, 9): { "source_id": 50, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((6, 10))
+DEBUG move_selected_piece_to: target=(6, 10), state=2, selected=(5, 9)
+DEBUG: is_valid_move((5, 9) -> (6, 10)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (6, 10) to (5, 9) (1 links remain)
+DEBUG: Bot chose - action: Reposition from: (6, 10) to: (5, 9) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (6, 10) to (5, 9)
+DEBUG: Calling select_piece_bot((6, 10))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(6, 10)
+DEBUG: piece at (6, 10): { "source_id": 50, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((5, 9))
+DEBUG move_selected_piece_to: target=(5, 9), state=2, selected=(6, 10)
+DEBUG: is_valid_move((6, 10) -> (5, 9)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (5, 9) to (6, 10) (0 links remain)
+DEBUG: Bot chose - action: Reposition from: (5, 9) to: (6, 10) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (5, 9) to (6, 10)
+DEBUG: Calling select_piece_bot((5, 9))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(5, 9)
+DEBUG: piece at (5, 9): { "source_id": 50, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((6, 10))
+DEBUG move_selected_piece_to: target=(6, 10), state=2, selected=(5, 9)
+DEBUG: is_valid_move((5, 9) -> (6, 10)) = true
+DEBUG: Move executed
+DEBUG PLAN: board control ours=36 enemy=31
+DEBUG PLAN: player=2 difficulty=3
+DEBUG PLAN: human predicted chain value=0.0 start=(6, 8) links=4 control=33
+DEBUG PLAN: material balance = 4 (ours=14 enemy=10)
+DEBUG PLAN: bot best chain value=0.0 start=(10, 4) links=4 control=37
+DEBUG PLAN: piece at (7, 0) is LOADED (gain=5.0 at reference roll 6 vs actual roll 4) -- protecting it from filler movement
+DEBUG PLAN: nothing safely capturable -- using safe (non-bait) filler move from (10, 4) instead of chain from (10, 4)
+DEBUG PLAN: net = capture 0.0 (ranked 0.0) - risk 5.0 (piece at (10, 4)) = -5.0
+DEBUG PLAN: B1 -- human turn value 0.0 >= bot turn value -5.0 -> checking defense
+DEBUG PLAN: no acceptable trade and no threatened piece identified -> attacking anyway
+DEBUG FINAL: new plan, 3 links remain [805ms]
+DEBUG PLAN: continuing -> Reposition (10, 4) to (9, 5) (3 links remain)
+DEBUG: Bot chose - action: Reposition from: (10, 4) to: (9, 5) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (10, 4) to (9, 5)
+DEBUG: Calling select_piece_bot((10, 4))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(10, 4)
+DEBUG: piece at (10, 4): { "source_id": 13, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((9, 5))
+DEBUG move_selected_piece_to: target=(9, 5), state=2, selected=(10, 4)
+DEBUG: is_valid_move((10, 4) -> (9, 5)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (9, 5) to (10, 5) (2 links remain)
+DEBUG: Bot chose - action: Reposition from: (9, 5) to: (10, 5) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (9, 5) to (10, 5)
+DEBUG: Calling select_piece_bot((9, 5))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(9, 5)
+DEBUG: piece at (9, 5): { "source_id": 13, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((10, 5))
+DEBUG move_selected_piece_to: target=(10, 5), state=2, selected=(9, 5)
+DEBUG: is_valid_move((9, 5) -> (10, 5)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (10, 5) to (10, 6) (1 links remain)
+DEBUG: Bot chose - action: Reposition from: (10, 5) to: (10, 6) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (10, 5) to (10, 6)
+DEBUG: Calling select_piece_bot((10, 5))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(10, 5)
+DEBUG: piece at (10, 5): { "source_id": 13, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((10, 6))
+DEBUG move_selected_piece_to: target=(10, 6), state=2, selected=(10, 5)
+DEBUG: is_valid_move((10, 5) -> (10, 6)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (10, 6) to (10, 7) (0 links remain)
+DEBUG: Bot chose - action: Reposition from: (10, 6) to: (10, 7) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (10, 6) to (10, 7)
+DEBUG: Calling select_piece_bot((10, 6))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(10, 6)
+DEBUG: piece at (10, 6): { "source_id": 13, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((10, 7))
+DEBUG move_selected_piece_to: target=(10, 7), state=2, selected=(10, 6)
+DEBUG: is_valid_move((10, 6) -> (10, 7)) = true
+DEBUG: Move executed
+DEBUG PLAN: board control ours=31 enemy=37
+DEBUG PLAN: player=1 difficulty=2
+DEBUG PLAN: human predicted chain value=0.0 start=(10, 7) links=4 control=33
+DEBUG PLAN: material balance = -4 (ours=10 enemy=14)
+DEBUG PLAN: bot best chain value=0.0 start=(6, 8) links=4 control=33
+DEBUG PLAN: piece at (6, 8) is LOADED (gain=5.0 at reference roll 6 vs actual roll 4) -- protecting it from filler movement
+DEBUG PLAN: nothing safely capturable -- using safe (non-bait) filler move from (6, 10) instead of chain from (6, 8)
+DEBUG PLAN: net = capture 0.0 (ranked 0.0) - risk 5.0 (piece at (6, 10)) = -5.0
+DEBUG PLAN: B1 -- human turn value 0.0 >= bot turn value -5.0 -> checking defense
+DEBUG PLAN: no acceptable trade and no threatened piece identified -> attacking anyway
+DEBUG FINAL: new plan, 3 links remain [638ms]
+DEBUG PLAN: continuing -> Rotate (6, 10) by 240 deg (3 links remain)
+DEBUG: Bot chose - action: Rotate from: (6, 10) to: <null> score: 0.0 assessment: N/A
+DEBUG PLAN: board control ours=34 enemy=37
+DEBUG PLAN: player=1 difficulty=2
+DEBUG PLAN: human predicted chain value=0.0 start=(10, 7) links=4 control=33
+DEBUG PLAN: material balance = -4 (ours=10 enemy=14)
+DEBUG PLAN: bot best chain value=0.0 start=(6, 10) links=3 control=33
+DEBUG PLAN: piece at (6, 8) is LOADED (gain=5.0 at reference roll 6 vs actual roll 3) -- protecting it from filler movement
+DEBUG PLAN: nothing safely capturable -- using safe (non-bait) filler move from (6, 10) instead of chain from (6, 10)
+DEBUG PLAN: net = capture 0.0 (ranked 0.0) - risk 5.0 (piece at (6, 10)) = -5.0
+DEBUG PLAN: B1 -- human turn value 0.0 >= bot turn value -5.0 -> checking defense
+DEBUG PLAN: no acceptable trade and no threatened piece identified -> attacking anyway
+DEBUG FINAL: new plan, 2 links remain [533ms]
+DEBUG PLAN: continuing -> Reposition (6, 10) to (6, 9) (2 links remain)
+DEBUG: Bot chose - action: Reposition from: (6, 10) to: (6, 9) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (6, 10) to (6, 9)
+DEBUG: Calling select_piece_bot((6, 10))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(6, 10)
+DEBUG: piece at (6, 10): { "source_id": 50, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((6, 9))
+DEBUG move_selected_piece_to: target=(6, 9), state=2, selected=(6, 10)
+DEBUG: is_valid_move((6, 10) -> (6, 9)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (6, 9) to (7, 8) (1 links remain)
+DEBUG: Bot chose - action: Reposition from: (6, 9) to: (7, 8) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (6, 9) to (7, 8)
+DEBUG: Calling select_piece_bot((6, 9))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(6, 9)
+DEBUG: piece at (6, 9): { "source_id": 50, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((7, 8))
+DEBUG move_selected_piece_to: target=(7, 8), state=2, selected=(6, 9)
+DEBUG: is_valid_move((6, 9) -> (7, 8)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (7, 8) to (7, 7) (0 links remain)
+DEBUG: Bot chose - action: Reposition from: (7, 8) to: (7, 7) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (7, 8) to (7, 7)
+DEBUG: Calling select_piece_bot((7, 8))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(7, 8)
+DEBUG: piece at (7, 8): { "source_id": 50, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((7, 7))
+DEBUG move_selected_piece_to: target=(7, 7), state=2, selected=(7, 8)
+DEBUG: is_valid_move((7, 8) -> (7, 7)) = true
+DEBUG: Move executed
+DEBUG PLAN: board control ours=37 enemy=33
+DEBUG PLAN: player=2 difficulty=3
+DEBUG PLAN: human predicted chain value=5.0 start=(7, 7) links=4 control=34
+DEBUG PLAN: material balance = 4 (ours=14 enemy=10)
+DEBUG PLAN: extra-hard attacking candidate start=(10, 7) value=7.0 net_value=5.0 score=7.0
+DEBUG PLAN: extra-hard score is non-negative -> committing to chain from (10, 7)
+DEBUG FINAL: new plan, 3 links remain [315ms]
+DEBUG PLAN: continuing -> Reposition (10, 7) to (9, 7) (3 links remain)
+DEBUG: Bot chose - action: Reposition from: (10, 7) to: (9, 7) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (10, 7) to (9, 7)
+DEBUG: Calling select_piece_bot((10, 7))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(10, 7)
+DEBUG: piece at (10, 7): { "source_id": 13, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((9, 7))
+DEBUG move_selected_piece_to: target=(9, 7), state=2, selected=(10, 7)
+DEBUG: is_valid_move((10, 7) -> (9, 7)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (9, 7) to (8, 7) (2 links remain)
+DEBUG: Bot chose - action: Reposition from: (9, 7) to: (8, 7) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (9, 7) to (8, 7)
+DEBUG: Calling select_piece_bot((9, 7))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(9, 7)
+DEBUG: piece at (9, 7): { "source_id": 13, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((8, 7))
+DEBUG move_selected_piece_to: target=(8, 7), state=2, selected=(9, 7)
+DEBUG: is_valid_move((9, 7) -> (8, 7)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Capture (8, 7) to (7, 7) captured_sid=50 (1 links remain)
+DEBUG: Bot chose - action: Capture from: (8, 7) to: (7, 7) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (8, 7) to (7, 7)
+DEBUG: Calling select_piece_bot((8, 7))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(8, 7)
+DEBUG: piece at (8, 7): { "source_id": 13, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((7, 7))
+DEBUG move_selected_piece_to: target=(7, 7), state=2, selected=(8, 7)
+DEBUG: is_valid_move((8, 7) -> (7, 7)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (7, 7) to (8, 7) (0 links remain)
+DEBUG: Bot chose - action: Reposition from: (7, 7) to: (8, 7) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (7, 7) to (8, 7)
+DEBUG: Calling select_piece_bot((7, 7))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(7, 7)
+DEBUG: piece at (7, 7): { "source_id": 13, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((8, 7))
+DEBUG move_selected_piece_to: target=(8, 7), state=2, selected=(7, 7)
+DEBUG: is_valid_move((7, 7) -> (8, 7)) = true
+DEBUG: Move executed
+DEBUG PLAN: board control ours=22 enemy=41
+DEBUG PLAN: player=1 difficulty=2
+DEBUG PLAN: human predicted chain value=5.0 start=(8, 7) links=4 control=39
+DEBUG PLAN: material balance = -9 (ours=5 enemy=14)
+DEBUG PLAN: bot best chain value=8.0 start=(6, 8) links=4 control=17
+DEBUG PLAN: net = capture 7.0 (ranked 8.0) - risk 5.0 (piece at (6, 8)) = 2.0
+DEBUG PLAN: B1 -- human turn value 5.0 >= bot turn value 2.0 -> checking defense
+DEBUG PLAN: best chain (start=(6, 8), net=2.0) not worth it -> safer capture from (6, 8) (net=2.0) available as fallback
+DEBUG PLAN: fallback from (6, 8) lands safely at end of its chain -> raising fallback_net from 2.0 to 7.0
+DEBUG PLAN: capturing h0's attacker at (8, 7) (chain from (6, 8), net 7.0) reduces the human's best reply from 5.0 to 0.0 (threat reduction 5.0, total 12.0) -- worth more than fallback net 7.0 -> capturing the attacker resolves all of h0's threatened pieces at once
+DEBUG FINAL: new plan, 3 links remain [242ms]
+DEBUG PLAN: continuing -> Reposition (6, 8) to (7, 8) (3 links remain)
+DEBUG: Bot chose - action: Reposition from: (6, 8) to: (7, 8) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (6, 8) to (7, 8)
+DEBUG: Calling select_piece_bot((6, 8))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(6, 8)
+DEBUG: piece at (6, 8): { "source_id": 4, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((7, 8))
+DEBUG move_selected_piece_to: target=(7, 8), state=2, selected=(6, 8)
+DEBUG: is_valid_move((6, 8) -> (7, 8)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (7, 8) to (8, 8) (2 links remain)
+DEBUG: Bot chose - action: Reposition from: (7, 8) to: (8, 8) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (7, 8) to (8, 8)
+DEBUG: Calling select_piece_bot((7, 8))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(7, 8)
+DEBUG: piece at (7, 8): { "source_id": 4, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((8, 8))
+DEBUG move_selected_piece_to: target=(8, 8), state=2, selected=(7, 8)
+DEBUG: is_valid_move((7, 8) -> (8, 8)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Capture (8, 8) to (8, 7) captured_sid=13 (1 links remain)
+DEBUG: Bot chose - action: Capture from: (8, 8) to: (8, 7) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (8, 8) to (8, 7)
+DEBUG: Calling select_piece_bot((8, 8))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(8, 8)
+DEBUG: piece at (8, 8): { "source_id": 4, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((8, 7))
+DEBUG move_selected_piece_to: target=(8, 7), state=2, selected=(8, 8)
+DEBUG: is_valid_move((8, 8) -> (8, 7)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (8, 7) to (9, 7) (0 links remain)
+DEBUG: Bot chose - action: Reposition from: (8, 7) to: (9, 7) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (8, 7) to (9, 7)
+DEBUG: Calling select_piece_bot((8, 7))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(8, 7)
+DEBUG: piece at (8, 7): { "source_id": 4, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((9, 7))
+DEBUG move_selected_piece_to: target=(9, 7), state=2, selected=(8, 7)
+DEBUG: is_valid_move((8, 7) -> (9, 7)) = true
+DEBUG: Move executed
+DEBUG PLAN: board control ours=21 enemy=17
+DEBUG PLAN: player=2 difficulty=3
+DEBUG PLAN: human predicted chain value=0.0 start=(9, 7) links=4 control=17
+DEBUG PLAN: material balance = 4 (ours=9 enemy=5)
+DEBUG PLAN: bot best chain value=0.0 start=(7, 0) links=3 control=17
+DEBUG PLAN: nothing safely capturable -- using safe (non-bait) filler move from (7, 0) instead of chain from (7, 0)
+DEBUG PLAN: net = capture 0.0 (ranked 0.0) - risk 9.0 (piece at (7, 0)) = -9.0
+DEBUG PLAN: B1 -- human turn value 0.0 >= bot turn value -9.0 -> checking defense
+DEBUG PLAN: no acceptable trade and no threatened piece identified -> attacking anyway
+DEBUG FINAL: new plan, 2 links remain [233ms]
+DEBUG PLAN: continuing -> Rotate (7, 0) by 60 deg (2 links remain)
+DEBUG: Bot chose - action: Rotate from: (7, 0) to: <null> score: 0.0 assessment: N/A
+DEBUG PLAN: board control ours=23 enemy=17
+DEBUG PLAN: player=2 difficulty=3
+DEBUG PLAN: human predicted chain value=0.0 start=(9, 7) links=4 control=17
+DEBUG PLAN: material balance = 4 (ours=9 enemy=5)
+DEBUG PLAN: bot best chain value=0.0 start=(7, 0) links=2 control=21
+DEBUG PLAN: piece at (7, 0) is LOADED (gain=5.0 at reference roll 6 vs actual roll 2) -- protecting it from filler movement
+DEBUG PLAN: net = capture 0.0 (ranked 0.0) - risk 9.0 (piece at (7, 0)) = -9.0
+DEBUG PLAN: B1 -- human turn value 0.0 >= bot turn value -9.0 -> checking defense
+DEBUG PLAN: no acceptable trade and no threatened piece identified -> attacking anyway
+DEBUG FINAL: new plan, 1 links remain [152ms]
+DEBUG PLAN: continuing -> Reposition (7, 0) to (8, 1) (1 links remain)
+DEBUG: Bot chose - action: Reposition from: (7, 0) to: (8, 1) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (7, 0) to (8, 1)
+DEBUG: Calling select_piece_bot((7, 0))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(7, 0)
+DEBUG: piece at (7, 0): { "source_id": 17, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((8, 1))
+DEBUG move_selected_piece_to: target=(8, 1), state=2, selected=(7, 0)
+DEBUG: is_valid_move((7, 0) -> (8, 1)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (8, 1) to (10, 2) (0 links remain)
+DEBUG: Bot chose - action: Reposition from: (8, 1) to: (10, 2) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (8, 1) to (10, 2)
+DEBUG: Calling select_piece_bot((8, 1))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(8, 1)
+DEBUG: piece at (8, 1): { "source_id": 17, "player": 2, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((10, 2))
+DEBUG move_selected_piece_to: target=(10, 2), state=2, selected=(8, 1)
+DEBUG: is_valid_move((8, 1) -> (10, 2)) = true
+DEBUG: Move executed
+DEBUG PLAN: board control ours=17 enemy=21
+DEBUG PLAN: player=1 difficulty=2
+DEBUG PLAN: human predicted chain value=5.0 start=(10, 2) links=4 control=10
+DEBUG PLAN: material balance = -4 (ours=5 enemy=9)
+DEBUG PLAN: bot best chain value=12.0 start=(9, 7) links=5 control=16
+DEBUG PLAN: net = capture 11.0 (ranked 12.0) - risk 5.0 (piece at (9, 7)) = 6.0
+DEBUG PLAN: A1 -- bot turn value 6.0 > human turn value 5.0 -> attacking with chain from (9, 7)
+DEBUG PLAN: A4 -- target (10, 2) undefended -> W1 capturing
+DEBUG FINAL: new plan, 4 links remain [146ms]
+DEBUG PLAN: continuing -> Reposition (9, 7) to (9, 6) (4 links remain)
+DEBUG: Bot chose - action: Reposition from: (9, 7) to: (9, 6) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (9, 7) to (9, 6)
+DEBUG: Calling select_piece_bot((9, 7))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(9, 7)
+DEBUG: piece at (9, 7): { "source_id": 4, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((9, 6))
+DEBUG move_selected_piece_to: target=(9, 6), state=2, selected=(9, 7)
+DEBUG: is_valid_move((9, 7) -> (9, 6)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (9, 6) to (8, 5) (3 links remain)
+DEBUG: Bot chose - action: Reposition from: (9, 6) to: (8, 5) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (9, 6) to (8, 5)
+DEBUG: Calling select_piece_bot((9, 6))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(9, 6)
+DEBUG: piece at (9, 6): { "source_id": 4, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((8, 5))
+DEBUG move_selected_piece_to: target=(8, 5), state=2, selected=(9, 6)
+DEBUG: is_valid_move((9, 6) -> (8, 5)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (8, 5) to (9, 4) (2 links remain)
+DEBUG: Bot chose - action: Reposition from: (8, 5) to: (9, 4) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (8, 5) to (9, 4)
+DEBUG: Calling select_piece_bot((8, 5))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(8, 5)
+DEBUG: piece at (8, 5): { "source_id": 4, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((9, 4))
+DEBUG move_selected_piece_to: target=(9, 4), state=2, selected=(8, 5)
+DEBUG: is_valid_move((8, 5) -> (9, 4)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Reposition (9, 4) to (9, 3) (1 links remain)
+DEBUG: Bot chose - action: Reposition from: (9, 4) to: (9, 3) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (9, 4) to (9, 3)
+DEBUG: Calling select_piece_bot((9, 4))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(9, 4)
+DEBUG: piece at (9, 4): { "source_id": 4, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((9, 3))
+DEBUG move_selected_piece_to: target=(9, 3), state=2, selected=(9, 4)
+DEBUG: is_valid_move((9, 4) -> (9, 3)) = true
+DEBUG: Move executed
+DEBUG PLAN: continuing -> Capture (9, 3) to (10, 2) captured_sid=17 (0 links remain)
+DEBUG: Bot chose - action: Capture from: (9, 3) to: (10, 2) score: 0.0 assessment: N/A
+DEBUG: Executing move - from (9, 3) to (10, 2)
+DEBUG: Calling select_piece_bot((9, 3))
+DEBUG select_piece_bot: state=2 (SPEND_MOVEMENT=2), coord=(9, 3)
+DEBUG: piece at (9, 3): { "source_id": 4, "player": 1, "preview_offset": 0.0 }
+DEBUG: Calling move_selected_piece_to((10, 2))
+DEBUG move_selected_piece_to: target=(10, 2), state=2, selected=(9, 3)
+DEBUG: is_valid_move((9, 3) -> (10, 2)) = true
+DEBUG: Move executed
+MusicPlayer: playing res://assets/HexAudio/HexMusic/DarkSuspenseandSynthwave-TheDeadbyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+MusicPlayer: playing res://assets/HexAudio/HexMusic/RetroandSynthwave-OdysseybyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+MusicPlayer: playing res://assets/HexAudio/HexMusic/DarkSuspenseandSynthwave-TheDeadbyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+MusicPlayer: playing res://assets/HexAudio/HexMusic/RetroandSynthwave-OdysseybyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+MusicPlayer: playing res://assets/HexAudio/HexMusic/DarkSuspenseandSynthwave-TheDeadbyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+MusicPlayer: playing res://assets/HexAudio/HexMusic/RetroandSynthwave-OdysseybyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+MusicPlayer: playing res://assets/HexAudio/HexMusic/DarkSuspenseandSynthwave-TheDeadbyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+MusicPlayer: playing res://assets/HexAudio/HexMusic/RetroandSynthwave-OdysseybyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+MusicPlayer: playing res://assets/HexAudio/HexMusic/DarkSuspenseandSynthwave-TheDeadbyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+MusicPlayer: playing res://assets/HexAudio/HexMusic/RetroandSynthwave-OdysseybyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+MusicPlayer: playing res://assets/HexAudio/HexMusic/DarkSuspenseandSynthwave-TheDeadbyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+MusicPlayer: playing res://assets/HexAudio/HexMusic/RetroandSynthwave-OdysseybyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+MusicPlayer: playing res://assets/HexAudio/HexMusic/DarkSuspenseandSynthwave-TheDeadbyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+MusicPlayer: playing res://assets/HexAudio/HexMusic/RetroandSynthwave-OdysseybyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+MusicPlayer: playing res://assets/HexAudio/HexMusic/DarkSuspenseandSynthwave-TheDeadbyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+MusicPlayer: playing res://assets/HexAudio/HexMusic/RetroandSynthwave-OdysseybyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+MusicPlayer: playing res://assets/HexAudio/HexMusic/DarkSuspenseandSynthwave-TheDeadbyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+MusicPlayer: playing res://assets/HexAudio/HexMusic/RetroandSynthwave-OdysseybyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+MusicPlayer: playing res://assets/HexAudio/HexMusic/DarkSuspenseandSynthwave-TheDeadbyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+MusicPlayer: playing res://assets/HexAudio/HexMusic/RetroandSynthwave-OdysseybyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+MusicPlayer: playing res://assets/HexAudio/HexMusic/DarkSuspenseandSynthwave-TheDeadbyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+MusicPlayer: playing res://assets/HexAudio/HexMusic/RetroandSynthwave-OdysseybyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+MusicPlayer: playing res://assets/HexAudio/HexMusic/DarkSuspenseandSynthwave-TheDeadbyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+MusicPlayer: playing res://assets/HexAudio/HexMusic/RetroandSynthwave-OdysseybyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+MusicPlayer: playing res://assets/HexAudio/HexMusic/DarkSuspenseandSynthwave-TheDeadbyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+MusicPlayer: playing res://assets/HexAudio/HexMusic/RetroandSynthwave-OdysseybyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+MusicPlayer: playing res://assets/HexAudio/HexMusic/DarkSuspenseandSynthwave-TheDeadbyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+MusicPlayer: playing res://assets/HexAudio/HexMusic/RetroandSynthwave-OdysseybyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+MusicPlayer: playing res://assets/HexAudio/HexMusic/DarkSuspenseandSynthwave-TheDeadbyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+MusicPlayer: playing res://assets/HexAudio/HexMusic/RetroandSynthwave-OdysseybyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+MusicPlayer: playing res://assets/HexAudio/HexMusic/DarkSuspenseandSynthwave-TheDeadbyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+MusicPlayer: playing res://assets/HexAudio/HexMusic/RetroandSynthwave-OdysseybyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+MusicPlayer: playing res://assets/HexAudio/HexMusic/DarkSuspenseandSynthwave-TheDeadbyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+MusicPlayer: playing res://assets/HexAudio/HexMusic/RetroandSynthwave-OdysseybyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+MusicPlayer: playing res://assets/HexAudio/HexMusic/DarkSuspenseandSynthwave-TheDeadbyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+MusicPlayer: playing res://assets/HexAudio/HexMusic/RetroandSynthwave-OdysseybyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+MusicPlayer: playing res://assets/HexAudio/HexMusic/DarkSuspenseandSynthwave-TheDeadbyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+MusicPlayer: playing res://assets/HexAudio/HexMusic/RetroandSynthwave-OdysseybyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+MusicPlayer: playing res://assets/HexAudio/HexMusic/DarkSuspenseandSynthwave-TheDeadbyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+MusicPlayer: playing res://assets/HexAudio/HexMusic/RetroandSynthwave-OdysseybyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+MusicPlayer: playing res://assets/HexAudio/HexMusic/DarkSuspenseandSynthwave-TheDeadbyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+MusicPlayer: playing res://assets/HexAudio/HexMusic/RetroandSynthwave-OdysseybyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+MusicPlayer: playing res://assets/HexAudio/HexMusic/DarkSuspenseandSynthwave-TheDeadbyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+MusicPlayer: playing res://assets/HexAudio/HexMusic/RetroandSynthwave-OdysseybyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+MusicPlayer: playing res://assets/HexAudio/HexMusic/DarkSuspenseandSynthwave-TheDeadbyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+MusicPlayer: playing res://assets/HexAudio/HexMusic/RetroandSynthwave-OdysseybyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+MusicPlayer: playing res://assets/HexAudio/HexMusic/DarkSuspenseandSynthwave-TheDeadbyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+MusicPlayer: playing res://assets/HexAudio/HexMusic/RetroandSynthwave-OdysseybyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+MusicPlayer: playing res://assets/HexAudio/HexMusic/DarkSuspenseandSynthwave-TheDeadbyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+MusicPlayer: playing res://assets/HexAudio/HexMusic/RetroandSynthwave-OdysseybyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+MusicPlayer: playing res://assets/HexAudio/HexMusic/DarkSuspenseandSynthwave-TheDeadbyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+MusicPlayer: playing res://assets/HexAudio/HexMusic/RetroandSynthwave-OdysseybyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+MusicPlayer: playing res://assets/HexAudio/HexMusic/DarkSuspenseandSynthwave-TheDeadbyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+MusicPlayer: playing res://assets/HexAudio/HexMusic/RetroandSynthwave-OdysseybyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+MusicPlayer: playing res://assets/HexAudio/HexMusic/DarkSuspenseandSynthwave-TheDeadbyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+MusicPlayer: playing res://assets/HexAudio/HexMusic/RetroandSynthwave-OdysseybyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
+MusicPlayer: playing res://assets/HexAudio/HexMusic/DarkSuspenseandSynthwave-TheDeadbyJohnTasoulas.mp3
+MusicPlayer: is_playing=true vol_db=-80.0
